@@ -1,0 +1,12 @@
+# Dependencias
+BACKEND/node_modules
+FRONTEND/node_modules
+
+# Variables de entorno (no versionar secretos)
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+*.log
