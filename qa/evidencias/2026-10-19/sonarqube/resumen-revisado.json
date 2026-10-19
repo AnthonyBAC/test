@@ -1,0 +1,28 @@
+{
+  "fecha_analisis": "2026-10-19T09:35:06-03:00",
+  "servidor": "26.10.0.133078",
+  "scanner": "8.1.0.6389",
+  "archivos": 42,
+  "ncloc": 6956,
+  "total_issues": 72,
+  "clasificacion_api": {
+    "BUG": 10,
+    "VULNERABILITY": 3,
+    "CODE_SMELL": 59
+  },
+  "impactos_mqr": {
+    "SECURITY": 3,
+    "RELIABILITY": 21,
+    "MAINTAINABILITY": 59,
+    "nota": "Las categorías pueden solaparse; no se suman para obtener el total."
+  },
+  "duplicacion_porcentaje": 16.0,
+  "cobertura_codigo_porcentaje": 0.0,
+  "lineas_a_cubrir": 1153,
+  "coverage_evidencia": "No se importaron reportes de pruebas unitarias; esta medida no equivale a cobertura del ERS ni a ejecución de CP.",
+  "quality_gate": "OK",
+  "condiciones_evaluadas": 0,
+  "quality_gate_nota": "Primera línea base; Sonar way evalúa código nuevo. No constituye aprobación del código completo.",
+  "hotspots_heredados": 0,
+  "fuentes_cambiadas_respecto_semgrep": 0
+}

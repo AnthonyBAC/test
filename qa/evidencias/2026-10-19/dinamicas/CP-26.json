@@ -1,0 +1,815 @@
+[
+  {
+    "usuariosVirtuales": 200,
+    "concurrenciaMaximaCliente": 200,
+    "iteracionesPorUsuario": 1,
+    "credenciales": "Sesión QA compartida por los usuarios virtuales",
+    "respuestasCorrectas": 200,
+    "respuestasConError": 0,
+    "duracionMs": 4588,
+    "saludPosterior": 200,
+    "respuestas": [
+      {
+        "status": 200,
+        "ms": 4337
+      },
+      {
+        "status": 200,
+        "ms": 4334
+      },
+      {
+        "status": 200,
+        "ms": 4347
+      },
+      {
+        "status": 200,
+        "ms": 4345
+      },
+      {
+        "status": 200,
+        "ms": 4338
+      },
+      {
+        "status": 200,
+        "ms": 4337
+      },
+      {
+        "status": 200,
+        "ms": 4348
+      },
+      {
+        "status": 200,
+        "ms": 4345
+      },
+      {
+        "status": 200,
+        "ms": 4350
+      },
+      {
+        "status": 200,
+        "ms": 4342
+      },
+      {
+        "status": 200,
+        "ms": 4338
+      },
+      {
+        "status": 200,
+        "ms": 4333
+      },
+      {
+        "status": 200,
+        "ms": 4340
+      },
+      {
+        "status": 200,
+        "ms": 4339
+      },
+      {
+        "status": 200,
+        "ms": 4340
+      },
+      {
+        "status": 200,
+        "ms": 4349
+      },
+      {
+        "status": 200,
+        "ms": 4350
+      },
+      {
+        "status": 200,
+        "ms": 4351
+      },
+      {
+        "status": 200,
+        "ms": 4351
+      },
+      {
+        "status": 200,
+        "ms": 4353
+      },
+      {
+        "status": 200,
+        "ms": 4357
+      },
+      {
+        "status": 200,
+        "ms": 4354
+      },
+      {
+        "status": 200,
+        "ms": 4359
+      },
+      {
+        "status": 200,
+        "ms": 4357
+      },
+      {
+        "status": 200,
+        "ms": 4360
+      },
+      {
+        "status": 200,
+        "ms": 4359
+      },
+      {
+        "status": 200,
+        "ms": 4361
+      },
+      {
+        "status": 200,
+        "ms": 4360
+      },
+      {
+        "status": 200,
+        "ms": 4362
+      },
+      {
+        "status": 200,
+        "ms": 4362
+      },
+      {
+        "status": 200,
+        "ms": 4363
+      },
+      {
+        "status": 200,
+        "ms": 4364
+      },
+      {
+        "status": 200,
+        "ms": 4365
+      },
+      {
+        "status": 200,
+        "ms": 4367
+      },
+      {
+        "status": 200,
+        "ms": 4366
+      },
+      {
+        "status": 200,
+        "ms": 4428
+      },
+      {
+        "status": 200,
+        "ms": 4368
+      },
+      {
+        "status": 200,
+        "ms": 4369
+      },
+      {
+        "status": 200,
+        "ms": 4372
+      },
+      {
+        "status": 200,
+        "ms": 4371
+      },
+      {
+        "status": 200,
+        "ms": 4373
+      },
+      {
+        "status": 200,
+        "ms": 4374
+      },
+      {
+        "status": 200,
+        "ms": 4375
+      },
+      {
+        "status": 200,
+        "ms": 4375
+      },
+      {
+        "status": 200,
+        "ms": 4376
+      },
+      {
+        "status": 200,
+        "ms": 4377
+      },
+      {
+        "status": 200,
+        "ms": 4380
+      },
+      {
+        "status": 200,
+        "ms": 4380
+      },
+      {
+        "status": 200,
+        "ms": 4381
+      },
+      {
+        "status": 200,
+        "ms": 4383
+      },
+      {
+        "status": 200,
+        "ms": 4382
+      },
+      {
+        "status": 200,
+        "ms": 4384
+      },
+      {
+        "status": 200,
+        "ms": 4385
+      },
+      {
+        "status": 200,
+        "ms": 4386
+      },
+      {
+        "status": 200,
+        "ms": 4395
+      },
+      {
+        "status": 200,
+        "ms": 4387
+      },
+      {
+        "status": 200,
+        "ms": 4398
+      },
+      {
+        "status": 200,
+        "ms": 4399
+      },
+      {
+        "status": 200,
+        "ms": 4399
+      },
+      {
+        "status": 200,
+        "ms": 4399
+      },
+      {
+        "status": 200,
+        "ms": 4401
+      },
+      {
+        "status": 200,
+        "ms": 4404
+      },
+      {
+        "status": 200,
+        "ms": 4402
+      },
+      {
+        "status": 200,
+        "ms": 4409
+      },
+      {
+        "status": 200,
+        "ms": 4405
+      },
+      {
+        "status": 200,
+        "ms": 4414
+      },
+      {
+        "status": 200,
+        "ms": 4411
+      },
+      {
+        "status": 200,
+        "ms": 4414
+      },
+      {
+        "status": 200,
+        "ms": 4415
+      },
+      {
+        "status": 200,
+        "ms": 4416
+      },
+      {
+        "status": 200,
+        "ms": 4417
+      },
+      {
+        "status": 200,
+        "ms": 4419
+      },
+      {
+        "status": 200,
+        "ms": 4362
+      },
+      {
+        "status": 200,
+        "ms": 4425
+      },
+      {
+        "status": 200,
+        "ms": 4427
+      },
+      {
+        "status": 200,
+        "ms": 4428
+      },
+      {
+        "status": 200,
+        "ms": 4430
+      },
+      {
+        "status": 200,
+        "ms": 4421
+      },
+      {
+        "status": 200,
+        "ms": 4431
+      },
+      {
+        "status": 200,
+        "ms": 4432
+      },
+      {
+        "status": 200,
+        "ms": 4432
+      },
+      {
+        "status": 200,
+        "ms": 4439
+      },
+      {
+        "status": 200,
+        "ms": 4434
+      },
+      {
+        "status": 200,
+        "ms": 4440
+      },
+      {
+        "status": 200,
+        "ms": 4442
+      },
+      {
+        "status": 200,
+        "ms": 4442
+      },
+      {
+        "status": 200,
+        "ms": 4444
+      },
+      {
+        "status": 200,
+        "ms": 4443
+      },
+      {
+        "status": 200,
+        "ms": 4444
+      },
+      {
+        "status": 200,
+        "ms": 4445
+      },
+      {
+        "status": 200,
+        "ms": 4446
+      },
+      {
+        "status": 200,
+        "ms": 4447
+      },
+      {
+        "status": 200,
+        "ms": 4448
+      },
+      {
+        "status": 200,
+        "ms": 4449
+      },
+      {
+        "status": 200,
+        "ms": 4450
+      },
+      {
+        "status": 200,
+        "ms": 4451
+      },
+      {
+        "status": 200,
+        "ms": 4451
+      },
+      {
+        "status": 200,
+        "ms": 4453
+      },
+      {
+        "status": 200,
+        "ms": 4452
+      },
+      {
+        "status": 200,
+        "ms": 4454
+      },
+      {
+        "status": 200,
+        "ms": 4454
+      },
+      {
+        "status": 200,
+        "ms": 4456
+      },
+      {
+        "status": 200,
+        "ms": 4456
+      },
+      {
+        "status": 200,
+        "ms": 4456
+      },
+      {
+        "status": 200,
+        "ms": 4457
+      },
+      {
+        "status": 200,
+        "ms": 4459
+      },
+      {
+        "status": 200,
+        "ms": 4461
+      },
+      {
+        "status": 200,
+        "ms": 4459
+      },
+      {
+        "status": 200,
+        "ms": 4461
+      },
+      {
+        "status": 200,
+        "ms": 4462
+      },
+      {
+        "status": 200,
+        "ms": 4464
+      },
+      {
+        "status": 200,
+        "ms": 4463
+      },
+      {
+        "status": 200,
+        "ms": 4465
+      },
+      {
+        "status": 200,
+        "ms": 4466
+      },
+      {
+        "status": 200,
+        "ms": 4467
+      },
+      {
+        "status": 200,
+        "ms": 4466
+      },
+      {
+        "status": 200,
+        "ms": 4468
+      },
+      {
+        "status": 200,
+        "ms": 4469
+      },
+      {
+        "status": 200,
+        "ms": 4470
+      },
+      {
+        "status": 200,
+        "ms": 4471
+      },
+      {
+        "status": 200,
+        "ms": 4473
+      },
+      {
+        "status": 200,
+        "ms": 4472
+      },
+      {
+        "status": 200,
+        "ms": 4475
+      },
+      {
+        "status": 200,
+        "ms": 4474
+      },
+      {
+        "status": 200,
+        "ms": 4477
+      },
+      {
+        "status": 200,
+        "ms": 4480
+      },
+      {
+        "status": 200,
+        "ms": 4481
+      },
+      {
+        "status": 200,
+        "ms": 4482
+      },
+      {
+        "status": 200,
+        "ms": 4485
+      },
+      {
+        "status": 200,
+        "ms": 4484
+      },
+      {
+        "status": 200,
+        "ms": 4486
+      },
+      {
+        "status": 200,
+        "ms": 4487
+      },
+      {
+        "status": 200,
+        "ms": 4488
+      },
+      {
+        "status": 200,
+        "ms": 4489
+      },
+      {
+        "status": 200,
+        "ms": 4489
+      },
+      {
+        "status": 200,
+        "ms": 4490
+      },
+      {
+        "status": 200,
+        "ms": 4491
+      },
+      {
+        "status": 200,
+        "ms": 4492
+      },
+      {
+        "status": 200,
+        "ms": 4492
+      },
+      {
+        "status": 200,
+        "ms": 4495
+      },
+      {
+        "status": 200,
+        "ms": 4492
+      },
+      {
+        "status": 200,
+        "ms": 4494
+      },
+      {
+        "status": 200,
+        "ms": 4495
+      },
+      {
+        "status": 200,
+        "ms": 4496
+      },
+      {
+        "status": 200,
+        "ms": 4498
+      },
+      {
+        "status": 200,
+        "ms": 4497
+      },
+      {
+        "status": 200,
+        "ms": 4500
+      },
+      {
+        "status": 200,
+        "ms": 4501
+      },
+      {
+        "status": 200,
+        "ms": 4498
+      },
+      {
+        "status": 200,
+        "ms": 4501
+      },
+      {
+        "status": 200,
+        "ms": 4502
+      },
+      {
+        "status": 200,
+        "ms": 4504
+      },
+      {
+        "status": 200,
+        "ms": 4506
+      },
+      {
+        "status": 200,
+        "ms": 4504
+      },
+      {
+        "status": 200,
+        "ms": 4506
+      },
+      {
+        "status": 200,
+        "ms": 4508
+      },
+      {
+        "status": 200,
+        "ms": 4507
+      },
+      {
+        "status": 200,
+        "ms": 4509
+      },
+      {
+        "status": 200,
+        "ms": 4511
+      },
+      {
+        "status": 200,
+        "ms": 4511
+      },
+      {
+        "status": 200,
+        "ms": 4512
+      },
+      {
+        "status": 200,
+        "ms": 4512
+      },
+      {
+        "status": 200,
+        "ms": 4513
+      },
+      {
+        "status": 200,
+        "ms": 4515
+      },
+      {
+        "status": 200,
+        "ms": 4516
+      },
+      {
+        "status": 200,
+        "ms": 4518
+      },
+      {
+        "status": 200,
+        "ms": 4517
+      },
+      {
+        "status": 200,
+        "ms": 4519
+      },
+      {
+        "status": 200,
+        "ms": 4519
+      },
+      {
+        "status": 200,
+        "ms": 4520
+      },
+      {
+        "status": 200,
+        "ms": 4522
+      },
+      {
+        "status": 200,
+        "ms": 4520
+      },
+      {
+        "status": 200,
+        "ms": 4521
+      },
+      {
+        "status": 200,
+        "ms": 4523
+      },
+      {
+        "status": 200,
+        "ms": 4524
+      },
+      {
+        "status": 200,
+        "ms": 4526
+      },
+      {
+        "status": 200,
+        "ms": 4525
+      },
+      {
+        "status": 200,
+        "ms": 4527
+      },
+      {
+        "status": 200,
+        "ms": 4528
+      },
+      {
+        "status": 200,
+        "ms": 4528
+      },
+      {
+        "status": 200,
+        "ms": 4529
+      },
+      {
+        "status": 200,
+        "ms": 4530
+      },
+      {
+        "status": 200,
+        "ms": 4530
+      },
+      {
+        "status": 200,
+        "ms": 4531
+      },
+      {
+        "status": 200,
+        "ms": 4534
+      },
+      {
+        "status": 200,
+        "ms": 4532
+      },
+      {
+        "status": 200,
+        "ms": 4532
+      },
+      {
+        "status": 200,
+        "ms": 4534
+      },
+      {
+        "status": 200,
+        "ms": 4535
+      },
+      {
+        "status": 200,
+        "ms": 4536
+      },
+      {
+        "status": 200,
+        "ms": 4539
+      },
+      {
+        "status": 200,
+        "ms": 4538
+      },
+      {
+        "status": 200,
+        "ms": 4536
+      },
+      {
+        "status": 200,
+        "ms": 4540
+      },
+      {
+        "status": 200,
+        "ms": 4538
+      },
+      {
+        "status": 200,
+        "ms": 4540
+      },
+      {
+        "status": 200,
+        "ms": 4540
+      },
+      {
+        "status": 200,
+        "ms": 4541
+      },
+      {
+        "status": 200,
+        "ms": 4540
+      },
+      {
+        "status": 200,
+        "ms": 4542
+      }
+    ],
+    "limite": "Ráfaga de 200 solicitudes concurrentes; no sustituye una prueba sostenida de capacidad."
+  }
+]

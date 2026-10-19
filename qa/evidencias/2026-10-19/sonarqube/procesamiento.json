@@ -1,0 +1,24 @@
+{
+  "queue": [],
+  "current": {
+    "id": "729a6a7d-d6e5-4c74-bf0d-10a000d34e19",
+    "type": "REPORT",
+    "componentId": "bbee2680-4074-44c7-a76a-466622ee74a3",
+    "componentKey": "atlas-ep3-20261019",
+    "componentName": "Atlas EP3 Calidad y Seguridad",
+    "componentQualifier": "TRK",
+    "analysisId": "db9a3705-9aea-4c02-9325-2070fed187f2",
+    "status": "SUCCESS",
+    "submittedAt": "2026-10-19T09:35:33-03:00",
+    "submitterLogin": "admin",
+    "startedAt": "2026-10-19T09:35:34-03:00",
+    "executedAt": "2026-10-19T09:35:37-03:00",
+    "executionTimeMs": 3740,
+    "hasScannerContext": true,
+    "warningCount": 1,
+    "warnings": [
+      "The token used for this analysis will expire on: October 21, 2026\nAfter this date, the token can no longer be used to execute the analysis. Please consider generating a new token and updating it in the locations where it is in use."
+    ],
+    "infoMessages": []
+  }
+}

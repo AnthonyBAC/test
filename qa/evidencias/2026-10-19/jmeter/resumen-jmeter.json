@@ -1,0 +1,21 @@
+{
+  "caso": "CP-26",
+  "herramienta": "Apache JMeter 5.6.3",
+  "fecha": "19/10/2026",
+  "fecha_inicio_local": "2026-10-19T10:53:34.849-03:00",
+  "usuarios_virtuales": 200,
+  "iteraciones": 5,
+  "sesion": "Cuenta QA compartida; 200 hilos, no 200 cuentas diferentes",
+  "solicitudes": 1000,
+  "correctas": 1000,
+  "errores": 0,
+  "error_porcentaje": 0.0,
+  "concurrencia_maxima_solicitudes": 200,
+  "hilos_maximos": 200.0,
+  "promedio_ms": 4335.58,
+  "minimo_ms": 4008,
+  "maximo_ms": 4807,
+  "p95_ms": 4702.95,
+  "duracion_muestras_s": 23.575,
+  "resultado": "Aprobado"
+}

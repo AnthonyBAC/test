@@ -1,0 +1,1331 @@
+Skip to main content
+Skip to issue filters
+
+Warning banner:
+Embedded database should be used for evaluation purposes only. It doesn't support scaling, upgrading to a new SonarQube Server version, or migration to another database engine.
+Learn more 
+(opens in new tab)
+
+Projects
+Issues
+Rules
+Quality profiles
+Quality gates
+Administration
+
+
+
+A
+A
+Atlas EP3 Calidad y Seguridad
+Project
+
+Overview
+
+Analysis
+
+Summary
+Issues
+Security hotspots
+
+Reporting
+
+
+Policies
+
+
+Project
+
+
+Project settings
+
+Atlas EP3 Calidad y Seguridad
+0
+Issues
+Issues
+My Issues
+All
+Filters
+Looking for Bugs, Vulnerabilities, or Code Smells? If your team prefers working with these types, change it in the settings
+
+Issues in new code
+Software Quality
+
+Security
+3
+Reliability
+21
+Maintainability
+59
+Severity
+
+1
+Blocker
+0
+4
+High
+2
+2
+Medium
+44
+3
+Low
+37
+
+Info
+0
+Code attribute
+
+Scope
+Status
+
+Compliance Category
+Creation Date
+Language
+Rule
+Tag
+Directory
+File
+Assignee
+Author
+Bulk Change
+72issues
+1d 4h effort
+Sort by
+
+​
+0 issues selected
+List of issues
+BACKEND/src/app.js
+Make sure that enabling CORS is safe here.
+Intentionality
+Security
+2
+Medium
+
+cwe
+express.js
+...
++
+Open
+
+
+L22
+4h effort
+4 minutes ago
+BACKEND/src/routes/contracts.js
+Make sure the content length limit is safe here.
+Responsibility
+Security
+2
+Medium
+
+cwe
+express.js
+...
++
+Open
+
+
+L15
+5min effort
+4 minutes ago
+Prefer `Number.parseInt` over `parseInt`.
+Consistency
+Reliability
+2
+Medium
+
+Maintainability
+3
+Low
+
+convention
+es2015
+...
++
+Open
+
+
+L213
+2min effort
+4 minutes ago
+Prefer `Number.parseInt` over `parseInt`.
+Consistency
+Reliability
+2
+Medium
+
+Maintainability
+3
+Low
+
+convention
+es2015
+...
++
+Open
+
+
+L220
+2min effort
+4 minutes ago
+Prefer `Number.parseInt` over `parseInt`.
+Consistency
+Reliability
+2
+Medium
+
+Maintainability
+3
+Low
+
+convention
+es2015
+...
++
+Open
+
+
+L232
+2min effort
+4 minutes ago
+Prefer `Number.parseInt` over `parseInt`.
+Consistency
+Reliability
+2
+Medium
+
+Maintainability
+3
+Low
+
+convention
+es2015
+...
++
+Open
+
+
+L244
+2min effort
+4 minutes ago
+Prefer `Number.parseInt` over `parseInt`.
+Consistency
+Reliability
+2
+Medium
+
+Maintainability
+3
+Low
+
+convention
+es2015
+...
++
+Open
+
+
+L256
+2min effort
+4 minutes ago
+BACKEND/src/routes/metricas.js
+Prefer `Number.parseInt` over `parseInt`.
+Consistency
+Reliability
+2
+Medium
+
+Maintainability
+3
+Low
+
+convention
+es2015
+...
++
+Open
+
+
+L130
+2min effort
+4 minutes ago
+Prefer `Number.parseInt` over `parseInt`.
+Consistency
+Reliability
+2
+Medium
+
+Maintainability
+3
+Low
+
+convention
+es2015
+...
++
+Open
+
+
+L137
+2min effort
+4 minutes ago
+Prefer `Number.parseInt` over `parseInt`.
+Consistency
+Reliability
+2
+Medium
+
+Maintainability
+3
+Low
+
+convention
+es2015
+...
++
+Open
+
+
+L149
+2min effort
+4 minutes ago
+Prefer `Number.parseInt` over `parseInt`.
+Consistency
+Reliability
+2
+Medium
+
+Maintainability
+3
+Low
+
+convention
+es2015
+...
++
+Open
+
+
+L161
+2min effort
+4 minutes ago
+FRONTEND/src/index.css
+Missing generic font family
+Intentionality
+Reliability
+2
+Medium
+
+No tags
++
+Open
+
+
+L6
+1min effort
+4 minutes ago
+FRONTEND/src/pages/Home.jsx
+Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+Intentionality
+Reliability
+2
+Medium
+
+async
+es2017
+...
++
+Open
+
+
+L77
+5min effort
+4 minutes ago
+FRONTEND/src/pages/clientes/ClienteForm.jsx
+Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+Intentionality
+Reliability
+2
+Medium
+
+async
+es2017
+...
++
+Open
+
+
+L63
+5min effort
+4 minutes ago
+FRONTEND/src/pages/contratos/ContratoDetalle.jsx
+Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+Intentionality
+Reliability
+2
+Medium
+
+async
+es2017
+...
++
+Open
+
+
+L21
+5min effort
+4 minutes ago
+FRONTEND/src/pages/contratos/ContratoForm.jsx
+Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+Intentionality
+Reliability
+2
+Medium
+
+async
+es2017
+...
++
+Open
+
+
+L34
+5min effort
+4 minutes ago
+Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+Intentionality
+Reliability
+2
+Medium
+
+async
+es2017
+...
++
+Open
+
+
+L46
+5min effort
+4 minutes ago
+FRONTEND/src/pages/contratos/ContratosTabCreate.jsx
+Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+Intentionality
+Reliability
+2
+Medium
+
+async
+es2017
+...
++
+Open
+
+
+L27
+5min effort
+4 minutes ago
+FRONTEND/src/pages/empresas/EmpresaForm.jsx
+Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+Intentionality
+Reliability
+2
+Medium
+
+async
+es2017
+...
++
+Open
+
+
+L33
+5min effort
+4 minutes ago
+FRONTEND/src/pages/empresas/EmpresasList.jsx
+Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+Intentionality
+Reliability
+2
+Medium
+
+async
+es2017
+...
++
+Open
+
+
+L50
+5min effort
+4 minutes ago
+FRONTEND/src/pages/usuarios/UsuarioForm.jsx
+Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+Intentionality
+Reliability
+2
+Medium
+
+async
+es2017
+...
++
+Open
+
+
+L36
+5min effort
+4 minutes ago
+BACKEND/src/app.js
+This framework implicitly discloses version information by default. Make sure it is safe here.
+Responsibility
+Security
+3
+Low
+
+cwe
+express.js
+...
++
+Open
+
+
+L20
+5min effort
+4 minutes ago
+FRONTEND/src/pages/auth/Login.jsx
+Ambiguous spacing after previous element strong
+Consistency
+Reliability
+3
+Low
+
+Maintainability
+2
+Medium
+
+react
++
+Open
+
+
+L206
+5min effort
+4 minutes ago
+Ambiguous spacing after previous element strong
+Consistency
+Reliability
+3
+Low
+
+Maintainability
+2
+Medium
+
+react
++
+Open
+
+
+L217
+5min effort
+4 minutes ago
+FRONTEND/src/pages/contratos/ContratoDetalle.jsx
+Specify the rules you want to disable.
+Intentionality
+Maintainability
+4
+High
+
+eslint
+editable-source
+...
++
+Open
+
+
+L22
+5min effort
+4 minutes ago
+FRONTEND/src/pages/empresas/EmpresasList.jsx
+Specify the rules you want to disable.
+Intentionality
+Maintainability
+4
+High
+
+eslint
+editable-source
+...
++
+Open
+
+
+L43
+5min effort
+4 minutes ago
+BACKEND/src/app.js
+Prefer `node:path` over `path`.
+Consistency
+Maintainability
+2
+Medium
+
+convention
+import
+...
++
+Open
+
+
+L1
+5min effort
+4 minutes ago
+Prefer `node:fs` over `fs`.
+Consistency
+Maintainability
+2
+Medium
+
+convention
+import
+...
++
+Open
+
+
+L2
+5min effort
+4 minutes ago
+BACKEND/src/routes/contracts.js
+Prefer `node:path` over `path`.
+Consistency
+Maintainability
+2
+Medium
+
+convention
+import
+...
++
+Open
+
+
+L1
+5min effort
+4 minutes ago
+Prefer `node:fs` over `fs`.
+Consistency
+Maintainability
+2
+Medium
+
+convention
+import
+...
++
+Open
+
+
+L2
+5min effort
+4 minutes ago
+FRONTEND/src/pages/auditoria/AuditoriaList.jsx
+Move this component definition out of the parent component and pass data as props.
+Intentionality
+Maintainability
+2
+Medium
+
+performance
+react
+...
++
+Open
+
+
+L61
+5min effort
+4 minutes ago
+FRONTEND/src/pages/clientes/ClientesTabList.jsx
+Move this component definition out of the parent component and pass data as props.
+Intentionality
+Maintainability
+2
+Medium
+
+performance
+react
+...
++
+Open
+
+
+L58
+5min effort
+4 minutes ago
+Move this component definition out of the parent component and pass data as props.
+Intentionality
+Maintainability
+2
+Medium
+
+performance
+react
+...
++
+Open
+
+
+L84
+5min effort
+4 minutes ago
+Move this component definition out of the parent component and pass data as props.
+Intentionality
+Maintainability
+2
+Medium
+
+performance
+react
+...
++
+Open
+
+
+L97
+5min effort
+4 minutes ago
+Move this component definition out of the parent component and pass data as props.
+Intentionality
+Maintainability
+2
+Medium
+
+performance
+react
+...
++
+Open
+
+
+L110
+5min effort
+4 minutes ago
+Move this component definition out of the parent component and pass data as props.
+Intentionality
+Maintainability
+2
+Medium
+
+performance
+react
+...
++
+Open
+
+
+L134
+5min effort
+4 minutes ago
+FRONTEND/src/pages/contratos/ContratosTabList.jsx
+Move this component definition out of the parent component and pass data as props.
+Intentionality
+Maintainability
+2
+Medium
+
+performance
+react
+...
++
+Open
+
+
+L101
+5min effort
+4 minutes ago
+Move this component definition out of the parent component and pass data as props.
+Intentionality
+Maintainability
+2
+Medium
+
+performance
+react
+...
++
+Open
+
+
+L132
+5min effort
+4 minutes ago
+Move this component definition out of the parent component and pass data as props.
+Intentionality
+Maintainability
+2
+Medium
+
+performance
+react
+...
++
+Open
+
+
+L145
+5min effort
+4 minutes ago
+Move this component definition out of the parent component and pass data as props.
+Intentionality
+Maintainability
+2
+Medium
+
+performance
+react
+...
++
+Open
+
+
+L158
+5min effort
+4 minutes ago
+Move this component definition out of the parent component and pass data as props.
+Intentionality
+Maintainability
+2
+Medium
+
+performance
+react
+...
++
+Open
+
+
+L170
+5min effort
+4 minutes ago
+Move this component definition out of the parent component and pass data as props.
+Intentionality
+Maintainability
+2
+Medium
+
+performance
+react
+...
++
+Open
+
+
+L198
+5min effort
+4 minutes ago
+FRONTEND/src/pages/empresas/EmpresaForm.jsx
+This statement will not be executed conditionally; only the first statement will be. The rest will execute unconditionally.
+Consistency
+Maintainability
+2
+Medium
+
+cwe
+editable-source
++
+Open
+
+
+L33
+5min effort
+4 minutes ago
+FRONTEND/src/pages/usuarios/UsuariosTabList.jsx
+Move this component definition out of the parent component and pass data as props.
+Intentionality
+Maintainability
+2
+Medium
+
+performance
+react
+...
++
+Open
+
+
+L53
+5min effort
+4 minutes ago
+Move this component definition out of the parent component and pass data as props.
+Intentionality
+Maintainability
+2
+Medium
+
+performance
+react
+...
++
+Open
+
+
+L84
+5min effort
+4 minutes ago
+Move this component definition out of the parent component and pass data as props.
+Intentionality
+Maintainability
+2
+Medium
+
+performance
+react
+...
++
+Open
+
+
+L94
+5min effort
+4 minutes ago
+Move this component definition out of the parent component and pass data as props.
+Intentionality
+Maintainability
+2
+Medium
+
+performance
+react
+...
++
+Open
+
+
+L107
+5min effort
+4 minutes ago
+BACKEND/src/routes/clients.js
+Prefer using an optional chain expression instead, as it's more concise and easier to read.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+type-dependent
+...
++
+Open
+
+
+L61
+5min effort
+4 minutes ago
+Prefer using an optional chain expression instead, as it's more concise and easier to read.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+type-dependent
+...
++
+Open
+
+
+L135
+5min effort
+4 minutes ago
+Prefer using an optional chain expression instead, as it's more concise and easier to read.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+type-dependent
+...
++
+Open
+
+
+L167
+5min effort
+4 minutes ago
+Prefer using an optional chain expression instead, as it's more concise and easier to read.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+type-dependent
+...
++
+Open
+
+
+L194
+5min effort
+4 minutes ago
+Prefer using an optional chain expression instead, as it's more concise and easier to read.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+type-dependent
+...
++
+Open
+
+
+L257
+5min effort
+4 minutes ago
+Prefer using an optional chain expression instead, as it's more concise and easier to read.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+type-dependent
+...
++
+Open
+
+
+L332
+5min effort
+4 minutes ago
+BACKEND/src/routes/contracts.js
+Prefer using an optional chain expression instead, as it's more concise and easier to read.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+type-dependent
+...
++
+Open
+
+
+L44
+5min effort
+4 minutes ago
+Prefer using an optional chain expression instead, as it's more concise and easier to read.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+type-dependent
+...
++
+Open
+
+
+L78
+5min effort
+4 minutes ago
+Prefer using an optional chain expression instead, as it's more concise and easier to read.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+type-dependent
+...
++
+Open
+
+
+L118
+5min effort
+4 minutes ago
+Prefer using an optional chain expression instead, as it's more concise and easier to read.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+type-dependent
+...
++
+Open
+
+
+L184
+5min effort
+4 minutes ago
+Prefer using an optional chain expression instead, as it's more concise and easier to read.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+type-dependent
+...
++
+Open
+
+
+L299
+5min effort
+4 minutes ago
+Prefer using an optional chain expression instead, as it's more concise and easier to read.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+type-dependent
+...
++
+Open
+
+
+L383
+5min effort
+4 minutes ago
+BACKEND/src/routes/empresa_usuarios.js
+Prefer using an optional chain expression instead, as it's more concise and easier to read.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+type-dependent
+...
++
+Open
+
+
+L25
+5min effort
+4 minutes ago
+Prefer using an optional chain expression instead, as it's more concise and easier to read.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+type-dependent
+...
++
+Open
+
+
+L94
+5min effort
+4 minutes ago
+BACKEND/src/routes/metricas.js
+Prefer using an optional chain expression instead, as it's more concise and easier to read.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+type-dependent
+...
++
+Open
+
+
+L43
+5min effort
+4 minutes ago
+BACKEND/src/routes/users.js
+Prefer using an optional chain expression instead, as it's more concise and easier to read.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+type-dependent
+...
++
+Open
+
+
+L46
+5min effort
+4 minutes ago
+FRONTEND/src/context/AuthContext.jsx
+The empty object is useless.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+unnecessary
+...
++
+Open
+
+
+L46
+5min effort
+4 minutes ago
+FRONTEND/src/lib/api.jsx
+Prefer using an optional chain expression instead, as it's more concise and easier to read.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+type-dependent
+...
++
+Open
+
+
+L53
+5min effort
+4 minutes ago
+Prefer using an optional chain expression instead, as it's more concise and easier to read.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+type-dependent
+...
++
+Open
+
+
+L59
+5min effort
+4 minutes ago
+Prefer using an optional chain expression instead, as it's more concise and easier to read.
+Intentionality
+Maintainability
+3
+Low
+
+editable-source
+type-dependent
+...
++
+Open
+
+
+L62
+5min effort
+4 minutes ago
+FRONTEND/src/pages/clientes/ClienteForm.jsx
+Remove this unused import of 'FormControlLabel'.
+Intentionality
+Maintainability
+3
+Low
+
+es2015
+type-dependent
+...
++
+Open
+
+
+L6
+1min effort
+4 minutes ago
+Remove this unused import of 'Switch'.
+Intentionality
+Maintainability
+3
+Low
+
+es2015
+type-dependent
+...
++
+Open
+
+
+L8
+1min effort
+4 minutes ago
+FRONTEND/src/pages/contratos/ContratosTabCreate.jsx
+Handle this exception, don't catch it at all, or explain in a comment why it is ignored.
+Intentionality
+Maintainability
+3
+Low
+
+cwe
+error-handling
+...
++
+Open
+
+
+L31
+1h effort
+4 minutes ago
+FRONTEND/src/pages/empresas/EmpresaForm.jsx
+Handle this exception, don't catch it at all, or explain in a comment why it is ignored.
+Intentionality
+Maintainability
+3
+Low
+
+cwe
+error-handling
+...
++
+Open
+
+
+L42
+1h effort
+4 minutes ago
+FRONTEND/src/pages/usuarios/UsuarioForm.jsx
+Handle this exception, don't catch it at all, or explain in a comment why it is ignored.
+Intentionality
+Maintainability
+3
+Low
+
+cwe
+error-handling
+...
++
+Open
+
+
+L43
+1h effort
+4 minutes ago
+72 of 72 shown
+SonarQube™ technology is powered by SonarSource Sàrl
+Community Build
+v26.10.0.133078
+MQR MODE
+LGPL v3
+Community
+Documentation
+Plugins
+Web API

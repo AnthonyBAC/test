@@ -1,0 +1,82 @@
+[
+  {
+    "fecha": "2026-10-19T02:48:03.379Z",
+    "method": "POST",
+    "url": "/empresa-usuarios",
+    "status": 201,
+    "ms": 29,
+    "request": {
+      "nombre_usuario": "QA1792378070948Temporal",
+      "contrasena_hash": "[omitido]",
+      "correo": "qa1792378070948temp@example.test",
+      "rol_id": 2
+    },
+    "response": {
+      "id": "9",
+      "empresa_id": "4",
+      "usuario_id": "9",
+      "rol_id": "2",
+      "created_at": "2026-10-19T02:48:03.370Z"
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "fecha": "2026-10-19T02:48:03.391Z",
+    "method": "PUT",
+    "url": "/empresa-usuarios/9",
+    "status": 200,
+    "ms": 11,
+    "request": {
+      "empresa_id": "4",
+      "usuario_id": "9",
+      "rol_id": 1
+    },
+    "response": {
+      "id": "9",
+      "empresa_id": "4",
+      "usuario_id": "9",
+      "rol_id": "1",
+      "created_at": "2026-10-19T02:48:03.370Z"
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "rolTrasModificacion": "1"
+  },
+  {
+    "fecha": "2026-10-19T02:48:03.647Z",
+    "method": "DELETE",
+    "url": "/empresa-usuarios/9",
+    "status": 200,
+    "ms": 7,
+    "request": null,
+    "response": {
+      "deleted": true
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "fecha": "2026-10-19T02:48:03.656Z",
+    "method": "DELETE",
+    "url": "/usuarios/9",
+    "status": 200,
+    "ms": 7,
+    "request": null,
+    "response": {
+      "deleted": true
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  }
+]

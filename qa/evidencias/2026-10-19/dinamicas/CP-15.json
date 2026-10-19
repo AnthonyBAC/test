@@ -1,0 +1,59 @@
+[
+  {
+    "fecha": "2026-10-19T02:48:29.001Z",
+    "method": "POST",
+    "url": "/contratos",
+    "status": 201,
+    "ms": 50,
+    "request": {
+      "cliente_id": "8",
+      "titulo": "QA1792378070948 Asociacion unica",
+      "descripcion": "Contrato ficticio QA",
+      "fecha_inicio": "2026-10-01",
+      "fecha_fin": "2026-12-31",
+      "file": "[archivo PDF QA]"
+    },
+    "response": {
+      "id": "5",
+      "cliente_id": "8",
+      "titulo": "QA1792378070948 Asociacion unica",
+      "descripcion": "Contrato ficticio QA",
+      "fecha_inicio": "2026-10-01T00:00:00.000Z",
+      "fecha_fin": "2026-12-31T00:00:00.000Z",
+      "created_at": "2026-10-19T02:48:28.995Z"
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "fecha": "2026-10-19T02:48:29.011Z",
+    "method": "PUT",
+    "url": "/contratos/5",
+    "status": 200,
+    "ms": 9,
+    "request": {
+      "cliente_id": "9"
+    },
+    "response": {
+      "id": "5",
+      "cliente_id": "9",
+      "titulo": "QA1792378070948 Asociacion unica",
+      "descripcion": "Contrato ficticio QA",
+      "fecha_inicio": "2026-10-01T00:00:00.000Z",
+      "fecha_fin": "2026-12-31T00:00:00.000Z",
+      "created_at": "2026-10-19T02:48:28.995Z"
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "clienteOriginal": "8",
+    "intentoSegundoCliente": "9",
+    "clienteTrasIntento": 9,
+    "relacionUnica": true
+  }
+]

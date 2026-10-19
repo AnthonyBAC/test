@@ -1,0 +1,115 @@
+{
+  "component": {
+    "key": "atlas-ep3-20261019",
+    "name": "Atlas EP3 Calidad y Seguridad",
+    "qualifier": "TRK",
+    "measures": [
+      {
+        "metric": "coverage",
+        "value": "0.0",
+        "bestValue": false
+      },
+      {
+        "metric": "reliability_rating",
+        "value": "3.0",
+        "bestValue": false
+      },
+      {
+        "metric": "code_smells",
+        "value": "59",
+        "bestValue": false
+      },
+      {
+        "metric": "duplicated_lines_density",
+        "value": "16.0",
+        "bestValue": false
+      },
+      {
+        "metric": "software_quality_security_rating",
+        "value": "3.0",
+        "bestValue": false
+      },
+      {
+        "metric": "security_rating",
+        "value": "3.0",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "72",
+        "bestValue": false
+      },
+      {
+        "metric": "software_quality_security_issues",
+        "value": "3",
+        "bestValue": false
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "sqale_rating",
+        "value": "1.0",
+        "bestValue": true
+      },
+      {
+        "metric": "alert_status",
+        "value": "OK"
+      },
+      {
+        "metric": "bugs",
+        "value": "10",
+        "bestValue": false
+      },
+      {
+        "metric": "lines_to_cover",
+        "value": "1153"
+      },
+      {
+        "metric": "software_quality_reliability_issues",
+        "value": "21",
+        "bestValue": false
+      },
+      {
+        "metric": "uncovered_lines",
+        "value": "1153",
+        "bestValue": false
+      },
+      {
+        "metric": "duplicated_blocks",
+        "value": "63",
+        "bestValue": false
+      },
+      {
+        "metric": "ncloc",
+        "value": "6956"
+      },
+      {
+        "metric": "software_quality_maintainability_issues",
+        "value": "59",
+        "bestValue": false
+      },
+      {
+        "metric": "software_quality_reliability_rating",
+        "value": "3.0",
+        "bestValue": false
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "3",
+        "bestValue": false
+      },
+      {
+        "metric": "lines",
+        "value": "7546"
+      },
+      {
+        "metric": "software_quality_maintainability_rating",
+        "value": "1.0",
+        "bestValue": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "clienteBuscado": "QA1792378070948 Cliente A",
+    "filaEncontrada": true,
+    "rutaAntes": "/clientes",
+    "rutaDespues": "/clientes",
+    "pantalla": "Inicio\nClientes\nContratos\nAuditoría\nUsuarios\nQ\n\nQA1792378070948A\n\nAdministrador\nEditar cuenta\nCerrar Sesión\nVersión 1.0.0\nGestión de Clientes\nAdministra la información de tus clientes. Puedes crear, editar y eliminar clientes según tus permisos.\nLISTAR CLIENTES\nCREAR CLIENTE\nClientes registrados\nEl siguiente listado muestra todos los clientes registrados en el sistema. Puedes editar y eliminar clientes según tus permisos.\nNombre\n0\nCorreo\n0\nTeléfono\n0\nDirección\n0\nAcciones\nQ\n\nQA1792378070948 Validacion correo unico\n\ncorreo-invalido-QA1792378070948\n\nCalle QA 100\n\nQ\n\nQA1792378070948 Backup\n\nqa1792378070948c10@example.test\n\n+56912345678\n\nCalle QA 100\n\n<\n\n<script>window.__atlasXss=1</script> QA1792378070948\n\nqa1792378070948c8@example.test\n\n+56912345678\n\nCalle QA 100\n\nQ\n\nQA1792378070948 Datos bancarios\n\nqa1792378070948c7@example.test\n\n+56912345678\n\nCalle QA 100\n\nQ\n\nQA1792378070948 Cliente A\n\nqa1792378070948c1@example.test\n\n+56912345678\n\nCalle QA 100\n\nFilas por página\n10\n1-5 de 5",
+    "enlacesClientes": []
+  }
+]

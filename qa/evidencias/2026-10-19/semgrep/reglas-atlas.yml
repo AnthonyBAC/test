@@ -1,0 +1,19 @@
+rules:
+  - id: atlas-plaintext-password-comparison
+    languages: [javascript]
+    severity: ERROR
+    message: Comparación directa de la contraseña recibida con contrasena_hash; revisar hashing y verificación segura. Regla específica del proyecto.
+    pattern: $USER.contrasena_hash !== $PASSWORD
+  - id: atlas-internal-error-response
+    languages: [javascript]
+    severity: WARNING
+    message: La respuesta JSON incluye el mensaje interno de una excepción; revisar exposición de detalles de SQL o infraestructura. Regla específica del proyecto.
+    pattern: '$RES.json({..., glosa: $ERR.message || $ERR.toString(), ...})'
+  - id: atlas-auth-context-log
+    languages: [javascript]
+    severity: INFO
+    message: Se registra el contexto autenticado o su empresa en consola; revisar necesidad, minimización y acceso a logs. No demuestra exposición pública por sí solo.
+    patterns:
+      - pattern-either:
+          - pattern: console.log("authUser", $AUTH)
+          - pattern: console.log("authUser", $AUTH.empresaId)

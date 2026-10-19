@@ -1,0 +1,34 @@
+Apache JMeter Dashboard
+ Dashboard
+ Charts
+Over Time
+Response Times Over Time
+Response Time Percentiles Over Time (successful responses)
+Active Threads Over Time
+Bytes Throughput Over Time
+Latencies Over Time
+Connect Time Over Time
+Throughput
+Response Times
+Customs Graphs
+
+Test and Report information
+
+File:	"CP-26.jtl"
+Start Time:	"10/19/26, 1:53 PM"
+End Time:	"10/19/26, 1:53 PM"
+Filter for display:	""
+ Response Times Over Time
+
+Zoom :
+
+CP-26 GET clientes
+ Response Time Percentiles Over Time (successful responses)
+ Active Threads Over Time
+
+Zoom :
+
+200 usuarios virtuales
+ Bytes Throughput Over Time
+ Latencies Over Time
+ Connect Time Over Time

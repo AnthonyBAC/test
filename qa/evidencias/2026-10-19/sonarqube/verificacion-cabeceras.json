@@ -1,0 +1,12 @@
+{
+  "fecha": "2026-10-19T09:38:38.9577890-03:00",
+  "method": "GET",
+  "url": "http://localhost:4450/openapi.json",
+  "status": 200,
+  "x_powered_by": [
+    "Express"
+  ],
+  "access_control_allow_origin": [
+    "*"
+  ]
+}

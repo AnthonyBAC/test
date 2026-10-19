@@ -46,3 +46,14 @@ Abre la terminal y situate en la raíz del proyecto y ejecuta el comando:
 	4.3 Database: `atlas`
 	4.4 Nombre de usuario: `postgres`
 	4.5 Contraseña: `postgres`
+
+## Pruebas y evidencias de la evaluación EP3
+
+La carpeta [qa](qa/README.md) incorpora los scripts de API/PostgreSQL y navegador, el plan de JMeter, las reglas de Semgrep, la configuración de SonarQube y las evidencias históricas revisadas de los 30 casos y 16 incidentes. Conserva los fallos de la aplicación evaluada.
+
+```powershell
+npm run qa:validar
+npm run qa:comprobar
+```
+
+Las instrucciones para configurar las credenciales locales y repetir las pruebas están en [qa/README.md](qa/README.md). Los resultados nuevos y los contextos privados están excluidos de Git. El resumen histórico final distingue 10 aprobados, 15 fallidos, un parcial y cuatro bloqueados; los incidentes siguen abiertos.

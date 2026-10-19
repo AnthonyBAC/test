@@ -1,0 +1,205 @@
+[
+  {
+    "fecha": "2026-10-19T02:48:28.676Z",
+    "method": "GET",
+    "url": "/auditoria",
+    "status": 200,
+    "ms": 6,
+    "request": null,
+    "response": [
+      {
+        "id": "31",
+        "usuario_id": "QA1792378070948B",
+        "accion": "CONTRATOS_CREAR: creó contrato QA1792378070948 Contrato B para cliente 9",
+        "fecha_hora": "2026-10-19T02:48:28.654Z"
+      },
+      {
+        "id": "30",
+        "usuario_id": "QA1792378070948A",
+        "accion": "CONTRATOS_CREAR: creó contrato QA1792378070948 Contrato A para cliente 8",
+        "fecha_hora": "2026-10-19T02:48:28.316Z"
+      },
+      {
+        "id": "29",
+        "usuario_id": "QA1792378070948A",
+        "accion": "CLIENTES_ELIMINAR: eliminó cliente ID 12",
+        "fecha_hora": "2026-10-19T02:48:08.003Z"
+      },
+      {
+        "id": "28",
+        "usuario_id": "QA1792378070948A",
+        "accion": "CLIENTES_CREAR: creó cliente QA1792378070948 Borrado",
+        "fecha_hora": "2026-10-19T02:48:07.995Z"
+      },
+      {
+        "id": "27",
+        "usuario_id": "QA1792378070948Editor",
+        "accion": "CLIENTES_ELIMINAR: eliminó cliente ID 11",
+        "fecha_hora": "2026-10-19T02:48:07.985Z"
+      },
+      {
+        "id": "26",
+        "usuario_id": "QA1792378070948Editor",
+        "accion": "CLIENTES_ACTUALIZAR: actualizó cliente ID 11",
+        "fecha_hora": "2026-10-19T02:48:07.975Z"
+      },
+      {
+        "id": "25",
+        "usuario_id": "QA1792378070948Editor",
+        "accion": "CLIENTES_CREAR: creó cliente QA1792378070948 Editor escritura",
+        "fecha_hora": "2026-10-19T02:48:07.966Z"
+      },
+      {
+        "id": "24",
+        "usuario_id": "QA1792378070948Editor",
+        "accion": "LOGIN: usuario inició sesión",
+        "fecha_hora": "2026-10-19T02:48:07.676Z"
+      },
+      {
+        "id": "23",
+        "usuario_id": "QA1792378070948A",
+        "accion": "EMPRESA_USUARIOS_CREAR: vinculó usuario 10 a empresa 4 con rol 2",
+        "fecha_hora": "2026-10-19T02:48:03.666Z"
+      },
+      {
+        "id": "22",
+        "usuario_id": "QA1792378070948A",
+        "accion": "USUARIOS_ELIMINAR: eliminó usuario ID 9",
+        "fecha_hora": "2026-10-19T02:48:03.654Z"
+      },
+      {
+        "id": "21",
+        "usuario_id": "QA1792378070948A",
+        "accion": "EMPRESA_USUARIOS_ELIMINAR: eliminó vínculo ID 9",
+        "fecha_hora": "2026-10-19T02:48:03.644Z"
+      },
+      {
+        "id": "20",
+        "usuario_id": "QA1792378070948A",
+        "accion": "EMPRESA_USUARIOS_ACTUALIZAR: actualizó vínculo ID 9",
+        "fecha_hora": "2026-10-19T02:48:03.387Z"
+      },
+      {
+        "id": "19",
+        "usuario_id": "QA1792378070948A",
+        "accion": "EMPRESA_USUARIOS_CREAR: vinculó usuario 9 a empresa 4 con rol 2",
+        "fecha_hora": "2026-10-19T02:48:03.375Z"
+      },
+      {
+        "id": "18",
+        "usuario_id": "QA1792378070948B",
+        "accion": "CLIENTES_CREAR: creó cliente QA1792378070948 Cliente B",
+        "fecha_hora": "2026-10-19T02:48:03.335Z"
+      },
+      {
+        "id": "17",
+        "usuario_id": "QA1792378070948A",
+        "accion": "CLIENTES_CREAR: creó cliente QA1792378070948 Cliente A",
+        "fecha_hora": "2026-10-19T02:48:03.323Z"
+      },
+      {
+        "id": "16",
+        "usuario_id": "QA1792378070948B",
+        "accion": "LOGIN: usuario inició sesión",
+        "fecha_hora": "2026-10-19T02:48:03.072Z"
+      },
+      {
+        "id": "15",
+        "usuario_id": "QA1792378070948A",
+        "accion": "LOGIN: usuario inició sesión",
+        "fecha_hora": "2026-10-19T02:47:59.052Z"
+      },
+      {
+        "id": "14",
+        "usuario_id": "admin",
+        "accion": "LOGIN: usuario inició sesión",
+        "fecha_hora": "2026-10-19T02:47:55.020Z"
+      },
+      {
+        "id": "13",
+        "usuario_id": "QA1792378026008Editor",
+        "accion": "LOGIN: usuario inició sesión",
+        "fecha_hora": "2026-10-19T02:47:23.231Z"
+      },
+      {
+        "id": "12",
+        "usuario_id": "QA1792378026008A",
+        "accion": "EMPRESA_USUARIOS_CREAR: vinculó usuario 6 a empresa 2 con rol 2",
+        "fecha_hora": "2026-10-19T02:47:19.216Z"
+      },
+      {
+        "id": "11",
+        "usuario_id": "QA1792378026008A",
+        "accion": "USUARIOS_ELIMINAR: eliminó usuario ID 5",
+        "fecha_hora": "2026-10-19T02:47:19.199Z"
+      },
+      {
+        "id": "10",
+        "usuario_id": "QA1792378026008A",
+        "accion": "EMPRESA_USUARIOS_ELIMINAR: eliminó vínculo ID 5",
+        "fecha_hora": "2026-10-19T02:47:19.185Z"
+      },
+      {
+        "id": "9",
+        "usuario_id": "QA1792378026008A",
+        "accion": "EMPRESA_USUARIOS_ACTUALIZAR: actualizó vínculo ID 5",
+        "fecha_hora": "2026-10-19T02:47:18.816Z"
+      },
+      {
+        "id": "8",
+        "usuario_id": "QA1792378026008A",
+        "accion": "EMPRESA_USUARIOS_CREAR: vinculó usuario 5 a empresa 2 con rol 2",
+        "fecha_hora": "2026-10-19T02:47:18.800Z"
+      },
+      {
+        "id": "7",
+        "usuario_id": "QA1792378026008A",
+        "accion": "CLIENTES_CREAR: creó cliente QA1792378026008 Correo inválido",
+        "fecha_hora": "2026-10-19T02:47:18.749Z"
+      },
+      {
+        "id": "6",
+        "usuario_id": "QA1792378026008A",
+        "accion": "CLIENTES_CREAR: creó cliente QA1792378026008 Cliente A",
+        "fecha_hora": "2026-10-19T02:47:18.678Z"
+      },
+      {
+        "id": "5",
+        "usuario_id": "QA1792378026008B",
+        "accion": "LOGIN: usuario inició sesión",
+        "fecha_hora": "2026-10-19T02:47:18.273Z"
+      },
+      {
+        "id": "4",
+        "usuario_id": "QA1792378026008A",
+        "accion": "LOGIN: usuario inició sesión",
+        "fecha_hora": "2026-10-19T02:47:14.234Z"
+      },
+      {
+        "id": "3",
+        "usuario_id": "admin",
+        "accion": "LOGIN: usuario inició sesión",
+        "fecha_hora": "2026-10-19T02:47:10.175Z"
+      },
+      {
+        "id": "2",
+        "usuario_id": "admin",
+        "accion": "LOGIN: usuario inició sesión",
+        "fecha_hora": "2026-10-19T02:45:03.153Z"
+      }
+    ],
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "eventoCreacionEncontrado": true,
+    "registro": {
+      "id": "17",
+      "usuario_id": "QA1792378070948A",
+      "accion": "CLIENTES_CREAR: creó cliente QA1792378070948 Cliente A",
+      "fecha_hora": "2026-10-19T02:48:03.323Z"
+    }
+  }
+]

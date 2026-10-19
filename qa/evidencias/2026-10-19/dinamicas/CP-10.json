@@ -1,0 +1,6 @@
+[
+  {
+    "comparacionBD": "t|f",
+    "significado": "Primera columna: coincide con contraseña en texto plano. Segunda: tiene prefijo bcrypt. No se publica el valor almacenado."
+  }
+]

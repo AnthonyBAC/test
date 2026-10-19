@@ -1,0 +1,56 @@
+[
+  {
+    "fecha": "2026-10-19T02:48:33.929Z",
+    "method": "POST",
+    "url": "/clientes",
+    "status": 201,
+    "ms": 19,
+    "request": {
+      "nombre": "QA1792378070948 Backup",
+      "correo": "qa1792378070948c10@example.test",
+      "telefono": "+56912345678",
+      "direccion": "Calle QA 100"
+    },
+    "response": {
+      "id": "15",
+      "nombre": "QA1792378070948 Backup",
+      "correo": "qa1792378070948c10@example.test",
+      "telefono": "+56912345678",
+      "direccion": "Calle QA 100",
+      "es_empresa": false,
+      "rut": null,
+      "nombre_fantasia": null,
+      "giro_actividad_economica": null,
+      "nombre_representante": null,
+      "cargo_representante": null,
+      "correo_representante": null,
+      "telefono_representante": null,
+      "relacion_representante": null,
+      "direccion_calle": null,
+      "direccion_numero": null,
+      "direccion_ciudad": null,
+      "direccion_region": null,
+      "sitio_web": null,
+      "telefono_corporativo": null,
+      "nombre_banco": null,
+      "numero_cuenta": null,
+      "titular_cuenta": null,
+      "metodo_pago": null,
+      "dia_pago": null,
+      "moneda": null,
+      "empresa_id": "4",
+      "created_at": "2026-10-19T02:48:33.922Z"
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "baseAislada": "atlas_qa_restore_1792378113930",
+    "perdidaConfirmada": true,
+    "restauracionIdentica": true,
+    "sha256": "2f76518445f8ba5d34f8b91c2847f815c84bcb3b91df170645e2efd185509e7c",
+    "procedimiento": "pg_dump / pg_restore manual; la base atlas principal no fue eliminada ni restaurada."
+  }
+]

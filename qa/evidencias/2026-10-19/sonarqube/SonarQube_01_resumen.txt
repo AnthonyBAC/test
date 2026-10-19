@@ -1,0 +1,123 @@
+Skip to main content
+
+Warning banner:
+Embedded database should be used for evaluation purposes only. It doesn't support scaling, upgrading to a new SonarQube Server version, or migration to another database engine.
+Learn more 
+(opens in new tab)
+
+Projects
+Issues
+Rules
+Quality profiles
+Quality gates
+Administration
+
+
+
+A
+A
+Atlas EP3 Calidad y Seguridad
+Project
+
+Overview
+
+Analysis
+
+Summary
+Issues
+Security hotspots
+
+Reporting
+
+
+Policies
+
+
+Project
+
+
+Project settings
+
+
+Information:
+To benefit from more of SonarQube Community Build's features, set up analysis in your favorite CI.
+
+Atlas EP3 Calidad y Seguridad
+0
+Summary
+Summary
+7k Lines of Code
+Version 2026.10.19
+Last analysis 4 minutes ago
+Set as homepage
+
+Quality gate
+
+Passed
+The last analysis has warnings.
+See details
+New Code
+Overall Code
+Security
+3
+Open issues
+C
+The Security rating is C when there is at least one issue with medium impact on the security of your software.
+Reliability
+21
+Open issues
+C
+The Reliability rating is C when there is at least one issue with medium impact on the reliability of your software.
+Maintainability
+59
+Open issues
+A
+The Maintainability rating is A if the code has a relatively lower level of technical debt when compared to the size of the codebase.
+Accepted issues
+0
+Valid issues that were not fixed
+Coverage
+0.0%
+On
+1.2k
+lines to cover.
+Duplications
+16.0%
+On
+7.5k
+lines.
+Security Hotspots
+Deprecated
+0
+A
+Security Review rating is A when at least 80% of Security Hotspots are reviewed.
+
+Warning:
+Limited security analysis
+SonarQube Community Build does not scan for critical injection vulnerabilities (SQL injection, XSS, and more).
+Explore other editions 
+(opens in new tab)
+Activity
+Graph type
+
+There isn't enough data to generate an activity graph.
+Oct 19, 2026, 9:35 AM
+Quality gate:
+Passed
+2026.10.19
+First analysis:
+72 Issues
+•
+0.0% Coverage
+•
+16.0% Duplications
+See full history of analyses
+SonarQube™ technology is powered by SonarSource Sàrl
+Community Build
+v26.10.0.133078
+MQR MODE
+LGPL v3
+Community
+Documentation
+Plugins
+Web API

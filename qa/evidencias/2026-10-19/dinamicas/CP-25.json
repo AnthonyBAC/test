@@ -1,0 +1,15 @@
+[
+  {
+    "medicionesMs": [
+      13462,
+      11374,
+      10547
+    ],
+    "descargaMbps": 1.6,
+    "subidaMbps": 0.75,
+    "latenciaMs": 150,
+    "cpuFactor": 4,
+    "cacheDeshabilitada": true,
+    "definicion": "Navegación hasta Dashboard con métricas visibles; incluye solicitudes asíncronas de la aplicación."
+  }
+]

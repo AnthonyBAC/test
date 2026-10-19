@@ -1,0 +1,156 @@
+[
+  {
+    "fecha": "2026-10-19T02:48:03.668Z",
+    "method": "POST",
+    "url": "/empresa-usuarios",
+    "status": 201,
+    "ms": 9,
+    "request": {
+      "nombre_usuario": "QA1792378070948Editor",
+      "contrasena_hash": "[omitido]",
+      "correo": "qa1792378070948editor@example.test",
+      "rol_id": 2
+    },
+    "response": {
+      "id": "10",
+      "empresa_id": "4",
+      "usuario_id": "10",
+      "rol_id": "2",
+      "created_at": "2026-10-19T02:48:03.664Z"
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "fecha": "2026-10-19T02:48:07.679Z",
+    "method": "POST",
+    "url": "/autenticacion/login",
+    "status": 200,
+    "ms": 4010,
+    "request": {
+      "nombre_usuario": "QA1792378070948Editor",
+      "password": "[omitido]"
+    },
+    "response": {
+      "token": "[omitido]"
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "rolReal": "editor"
+  },
+  {
+    "fecha": "2026-10-19T02:48:07.969Z",
+    "method": "POST",
+    "url": "/clientes",
+    "status": 201,
+    "ms": 10,
+    "request": {
+      "nombre": "QA1792378070948 Editor escritura",
+      "correo": "qa1792378070948c4@example.test",
+      "telefono": "+56912345678",
+      "direccion": "Calle QA 100"
+    },
+    "response": {
+      "id": "11",
+      "nombre": "QA1792378070948 Editor escritura",
+      "correo": "qa1792378070948c4@example.test",
+      "telefono": "+56912345678",
+      "direccion": "Calle QA 100",
+      "es_empresa": false,
+      "rut": null,
+      "nombre_fantasia": null,
+      "giro_actividad_economica": null,
+      "nombre_representante": null,
+      "cargo_representante": null,
+      "correo_representante": null,
+      "telefono_representante": null,
+      "relacion_representante": null,
+      "direccion_calle": null,
+      "direccion_numero": null,
+      "direccion_ciudad": null,
+      "direccion_region": null,
+      "sitio_web": null,
+      "telefono_corporativo": null,
+      "nombre_banco": null,
+      "numero_cuenta": null,
+      "titular_cuenta": null,
+      "metodo_pago": null,
+      "dia_pago": null,
+      "moneda": null,
+      "empresa_id": "4",
+      "created_at": "2026-10-19T02:48:07.964Z"
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "fecha": "2026-10-19T02:48:07.977Z",
+    "method": "PUT",
+    "url": "/clientes/11",
+    "status": 200,
+    "ms": 7,
+    "request": {
+      "nombre": "QA1792378070948 Editor modificó",
+      "correo": "qa1792378070948c5@example.test",
+      "telefono": "+56912345678",
+      "direccion": "Calle QA 100"
+    },
+    "response": {
+      "id": "11",
+      "nombre": "QA1792378070948 Editor modificó",
+      "correo": "qa1792378070948c5@example.test",
+      "telefono": "+56912345678",
+      "direccion": "Calle QA 100",
+      "es_empresa": false,
+      "rut": null,
+      "nombre_fantasia": null,
+      "giro_actividad_economica": null,
+      "nombre_representante": null,
+      "cargo_representante": null,
+      "correo_representante": null,
+      "telefono_representante": null,
+      "relacion_representante": null,
+      "direccion_calle": null,
+      "direccion_numero": null,
+      "direccion_ciudad": null,
+      "direccion_region": null,
+      "sitio_web": null,
+      "telefono_corporativo": null,
+      "nombre_banco": null,
+      "numero_cuenta": null,
+      "titular_cuenta": null,
+      "metodo_pago": null,
+      "dia_pago": null,
+      "moneda": null,
+      "empresa_id": "4",
+      "created_at": "2026-10-19T02:48:07.964Z"
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "fecha": "2026-10-19T02:48:07.987Z",
+    "method": "DELETE",
+    "url": "/clientes/11",
+    "status": 200,
+    "ms": 9,
+    "request": null,
+    "response": {
+      "deleted": true
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "fecha": "2026-10-19T02:48:29.365Z",
+    "method": "GET",
+    "url": "/",
+    "status": 200,
+    "ms": 3,
+    "request": null,
+    "response": {
+      "name": "Atlas",
+      "status": "ok"
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "frontendProtocol": "http:",
+    "backendProtocol": "http:",
+    "nota": "Evaluación del entorno local suministrado; no extrapolable al despliegue de producción."
+  }
+]

@@ -1,0 +1,419 @@
+{
+  "fechas_ejecucion": [
+    "2026-10-18",
+    "2026-10-19"
+  ],
+  "revision": "2026-10-19",
+  "origen_codigo": "G:\\projects_win\\test",
+  "alcance": "Evidencias históricas de la evaluación; no representa una nueva ejecución ni correcciones del software.",
+  "resumen": {
+    "planificados": 30,
+    "ejecutados": 26,
+    "Aprobado": 10,
+    "Fallido": 15,
+    "Parcial": 1,
+    "Bloqueado": 4
+  },
+  "casos": [
+    {
+      "id": "CP-01",
+      "caso": "Inicio de sesión exitoso",
+      "estado": "Aprobado",
+      "resultado_obtenido": "Resultado obtenido: El usuario admin se autenticó desde la interfaz y accedió al Dashboard con las credenciales válidas.",
+      "evidencias": "CP-01.json; CP-01_01.png",
+      "incidente": "No aplica.",
+      "ejecutor": "Ejecución automatizada; revisión: Anthony Adasme"
+    },
+    {
+      "id": "CP-02",
+      "caso": "Restricción de escritura para usuario Editor",
+      "estado": "Fallido",
+      "resultado_obtenido": "Resultado obtenido: El Editor creó, modificó y eliminó clientes por API (201/200/200); no se restringió la escritura.",
+      "evidencias": "CP-02.json",
+      "incidente": "INC-01 — Grave — Abierto",
+      "ejecutor": "Ejecución automatizada; revisión: Anthony Adasme"
+    },
+    {
+      "id": "CP-03",
+      "caso": "Eliminación lógica de cliente",
+      "estado": "Fallido",
+      "resultado_obtenido": "Resultado obtenido: La eliminación respondió 200 y dejó cero registros: fue física, en lugar de lógica.",
+      "evidencias": "CP-03.json",
+      "incidente": "INC-02 — Grave — Abierto",
+      "ejecutor": "Ejecución automatizada; revisión: Juanjose Soto"
+    },
+    {
+      "id": "CP-04",
+      "caso": "Tiempo de respuesta al consultar clientes",
+      "estado": "Fallido",
+      "resultado_obtenido": "Resultado obtenido: Cinco consultas promediaron 4008 ms y superaron el límite de 300 ms.",
+      "evidencias": "CP-04.json",
+      "incidente": "INC-03 — Moderado — Abierto",
+      "ejecutor": "Ejecución automatizada; revisión: Juanjose Soto"
+    },
+    {
+      "id": "CP-05",
+      "caso": "Validación de usabilidad con usuarios representativos",
+      "estado": "Bloqueado",
+      "resultado_obtenido": "Resultado obtenido: No se contó con cinco usuarios representativos; la revisión automática no sustituye esta prueba.",
+      "evidencias": "Sin evidencia de ejecución; caso bloqueado.",
+      "incidente": "Sin defecto comprobado; bloqueo de precondiciones.",
+      "ejecutor": "Juanjose Soto (pendiente de ejecución)"
+    },
+    {
+      "id": "CP-06",
+      "caso": "Compatibilidad entre navegadores y dispositivos",
+      "estado": "Fallido",
+      "resultado_obtenido": "Resultado obtenido: El Dashboard se recortó en móvil de 390 × 844 px con Edge; falta completar la matriz de navegadores.",
+      "evidencias": "CP-06.json; CP-25_01.png",
+      "incidente": "INC-04 — Moderado — Abierto",
+      "ejecutor": "Ejecución automatizada; revisión: Anthony Adasme"
+    },
+    {
+      "id": "CP-07",
+      "caso": "Registro de usuario y creación de empresa",
+      "estado": "Aprobado",
+      "resultado_obtenido": "Resultado obtenido: La cuenta QA y su empresa se crearon, quedaron asociadas a rol Administrador y accedieron al Dashboard.",
+      "evidencias": "CP-07.json; CP-07_01.png",
+      "incidente": "No aplica.",
+      "ejecutor": "Ejecución automatizada; revisión: Anthony Adasme"
+    },
+    {
+      "id": "CP-08",
+      "caso": "Carga y descarga de documento asociado a contrato",
+      "estado": "Aprobado",
+      "resultado_obtenido": "Resultado obtenido: Carga 201 y descarga 200 del mismo archivo, sin cambios de contenido; integración por API en 55 ms.",
+      "evidencias": "CP-08.json",
+      "incidente": "No aplica.",
+      "ejecutor": "Ejecución automatizada; revisión: Juanjose Soto"
+    },
+    {
+      "id": "CP-09",
+      "caso": "Registro de acciones críticas en auditoría",
+      "estado": "Aprobado",
+      "resultado_obtenido": "Resultado obtenido: La creación del cliente QA generó un evento de auditoría con usuario, acción y fecha.",
+      "evidencias": "CP-09.json",
+      "incidente": "No aplica.",
+      "ejecutor": "Ejecución automatizada; revisión: Juanjose Soto"
+    },
+    {
+      "id": "CP-10",
+      "caso": "Protección de contraseñas mediante hashing",
+      "estado": "Fallido",
+      "resultado_obtenido": "Resultado obtenido: La contraseña QA coincidió con el valor almacenado; no se aplicó el hashing esperado.",
+      "evidencias": "CP-10.json",
+      "incidente": "INC-05 — Grave — Abierto",
+      "ejecutor": "Ejecución automatizada; revisión: Anthony Adasme"
+    },
+    {
+      "id": "CP-11",
+      "caso": "Restricción de acceso a documentos entre empresas",
+      "estado": "Fallido",
+      "resultado_obtenido": "Resultado obtenido: Un token de la Empresa A descargó el documento de la Empresa B (200; 583 bytes).",
+      "evidencias": "CP-11.json",
+      "incidente": "INC-06 — Grave — Abierto",
+      "ejecutor": "Ejecución automatizada; revisión: Anthony Adasme"
+    },
+    {
+      "id": "CP-12",
+      "caso": "Cierre de sesión y revocación del token",
+      "estado": "Fallido",
+      "resultado_obtenido": "Resultado obtenido: La interfaz cerró sesión, pero el token anterior siguió obteniendo acceso a /clientes (200).",
+      "evidencias": "CP-12.json; CP-12_01.png",
+      "incidente": "INC-07 — Grave — Abierto",
+      "ejecutor": "Ejecución automatizada; revisión: Anthony Adasme"
+    },
+    {
+      "id": "CP-13",
+      "caso": "Creación, asignación de rol y administración de usuarios",
+      "estado": "Aprobado",
+      "resultado_obtenido": "Resultado obtenido: El Administrador creó un usuario, cambió su rol y lo eliminó; verificación por API y base de datos.",
+      "evidencias": "CP-13.json",
+      "incidente": "No aplica.",
+      "ejecutor": "Ejecución automatizada; revisión: Juanjose Soto"
+    },
+    {
+      "id": "CP-14",
+      "caso": "Creación de cliente y validación de campos",
+      "estado": "Fallido",
+      "resultado_obtenido": "Resultado obtenido: El sistema aceptó y almacenó un correo único sin @ (201), incumpliendo la validación.",
+      "evidencias": "CP-14.json",
+      "incidente": "INC-08 — Moderado — Abierto",
+      "ejecutor": "Ejecución automatizada; revisión: Juanjose Soto"
+    },
+    {
+      "id": "CP-15",
+      "caso": "Creación de contrato asociado a un único cliente",
+      "estado": "Aprobado",
+      "resultado_obtenido": "Resultado obtenido: El contrato conservó un único cliente asociado; el control entre empresas se analiza en CP-11.",
+      "evidencias": "CP-15.json",
+      "incidente": "No aplica.",
+      "ejecutor": "Ejecución automatizada; revisión: Anthony Adasme"
+    },
+    {
+      "id": "CP-16",
+      "caso": "Cálculo del estado de contrato",
+      "estado": "Fallido",
+      "resultado_obtenido": "Resultado obtenido: Las fechas 23/10 y 17/10 se mostraron como 22/10 y 16/10; falta corregir su coherencia con los estados.",
+      "evidencias": "CP-16.json; CP-16_01.png",
+      "incidente": "INC-09 — Moderado — Abierto",
+      "ejecutor": "Ejecución automatizada; revisión: Juanjose Soto"
+    },
+    {
+      "id": "CP-17",
+      "caso": "Generación de enlace de acceso a documento",
+      "estado": "Fallido",
+      "resultado_obtenido": "Resultado obtenido: Ver archivo entregó el PDF sin sesión (200); no se generó un enlace con condiciones de acceso.",
+      "evidencias": "CP-17.json; CP-17_01.png",
+      "incidente": "INC-10 — Grave — Abierto",
+      "ejecutor": "Ejecución automatizada; revisión: Juanjose Soto"
+    },
+    {
+      "id": "CP-18",
+      "caso": "Protección de comunicaciones mediante TLS",
+      "estado": "Fallido",
+      "resultado_obtenido": "Resultado obtenido: El ambiente local utilizó HTTP, sin TLS ni redirección a HTTPS.",
+      "evidencias": "CP-18.json",
+      "incidente": "INC-11 — Grave — Abierto",
+      "ejecutor": "Ejecución automatizada; revisión: Juanjose Soto"
+    },
+    {
+      "id": "CP-19",
+      "caso": "Protección de datos sensibles almacenados",
+      "estado": "Bloqueado",
+      "resultado_obtenido": "Resultado obtenido: No se obtuvo evidencia del cifrado en reposo; la lectura mediante SQL autorizado no permite descartarlo.",
+      "evidencias": "CP-19.json",
+      "incidente": "Sin defecto comprobado; bloqueo de precondiciones.",
+      "ejecutor": "Juanjose Soto (pendiente de ejecución)"
+    },
+    {
+      "id": "CP-20",
+      "caso": "Protección frente a XSS, SQL Injection y solicitudes no válidas",
+      "estado": "Parcial",
+      "resultado_obtenido": "Resultado obtenido: Pruebas básicas XSS/SQL sin el efecto ensayado. El 401 sin token verifica autenticación; CSRF no quedó validado de forma concluyente.",
+      "evidencias": "CP-20.json; CP-20_01.png",
+      "incidente": "Sin defecto CSRF comprobado; validación pendiente.",
+      "ejecutor": "Ejecución automatizada; revisión: Anthony Adasme"
+    },
+    {
+      "id": "CP-21",
+      "caso": "Validación de registros de log seguros",
+      "estado": "Fallido",
+      "resultado_obtenido": "Resultado obtenido: La auditoría registró eventos sin secretos de QA observados, pero el listado fue accesible sin autenticación (200).",
+      "evidencias": "CP-21.json",
+      "incidente": "INC-12 — Grave — Abierto",
+      "ejecutor": "Ejecución automatizada; revisión: Anthony Adasme"
+    },
+    {
+      "id": "CP-22",
+      "caso": "Recuperación de información mediante respaldo",
+      "estado": "Aprobado",
+      "resultado_obtenido": "Resultado obtenido: El respaldo restauró el registro en una base aislada; no valida una política de respaldos automáticos.",
+      "evidencias": "CP-22.json",
+      "incidente": "No aplica.",
+      "ejecutor": "Ejecución automatizada; revisión: Anthony Adasme"
+    },
+    {
+      "id": "CP-23",
+      "caso": "Validación de controles aplicados a datos personales",
+      "estado": "Fallido",
+      "resultado_obtenido": "Resultado obtenido: La información de un usuario ajeno fue accesible entre empresas y sin token (200).",
+      "evidencias": "CP-23.json",
+      "incidente": "INC-13 — Grave — Abierto",
+      "ejecutor": "Ejecución automatizada; revisión: Juanjose Soto"
+    },
+    {
+      "id": "CP-24",
+      "caso": "Validación de token de acceso JWT",
+      "estado": "Aprobado",
+      "resultado_obtenido": "Resultado obtenido: En /clientes: token válido 200; ausente o alterado 401. La aprobación se limita a ese recurso.",
+      "evidencias": "CP-24.json",
+      "incidente": "No aplica.",
+      "ejecutor": "Ejecución automatizada; revisión: Juanjose Soto"
+    },
+    {
+      "id": "CP-25",
+      "caso": "Tiempo de carga de página principal",
+      "estado": "Fallido",
+      "resultado_obtenido": "Resultado obtenido: Cargas móviles de 13.462, 11.374 y 10.547 ms, superiores a 2 s; condiciones y medición en CP-25.json.",
+      "evidencias": "CP-25.json; CP-25_01.png",
+      "incidente": "INC-14 — Moderado — Abierto",
+      "ejecutor": "Ejecución automatizada; revisión: Juanjose Soto"
+    },
+    {
+      "id": "CP-26",
+      "caso": "Concurrencia de usuarios",
+      "estado": "Aprobado",
+      "resultado_obtenido": "Resultado obtenido: JMeter ejecutó 1.000 consultas correctas, con cero errores y 200 usuarios virtuales/hilos concurrentes.",
+      "evidencias": "CP-26.jtl; resumen-jmeter.json; JMeter_01_resultados.png",
+      "incidente": "No aplica.",
+      "ejecutor": "Ejecución automatizada; revisión: Anthony Adasme"
+    },
+    {
+      "id": "CP-27",
+      "caso": "Flujo de acceso desde clientes hacia contratos",
+      "estado": "Fallido",
+      "resultado_obtenido": "Resultado obtenido: Seleccionar el cliente no abrió sus contratos y la ruta permaneció /clientes.",
+      "evidencias": "CP-27.json; CP-27_01.png",
+      "incidente": "INC-15 — Moderado — Abierto",
+      "ejecutor": "Ejecución automatizada; revisión: Anthony Adasme"
+    },
+    {
+      "id": "CP-28",
+      "caso": "Verificación de disponibilidad del servicio",
+      "estado": "Bloqueado",
+      "resultado_obtenido": "Resultado obtenido: No se dispone de un mes de monitoreo para verificar el 99,5 % de disponibilidad.",
+      "evidencias": "Sin evidencia de ejecución; caso bloqueado.",
+      "incidente": "Sin defecto comprobado; bloqueo de precondiciones.",
+      "ejecutor": "Anthony Adasme (pendiente de ejecución)"
+    },
+    {
+      "id": "CP-29",
+      "caso": "Actualización durante ventana de mantenimiento",
+      "estado": "Bloqueado",
+      "resultado_obtenido": "Resultado obtenido: No se suministró una actualización o migración real ni una ventana de mantenimiento para probarla.",
+      "evidencias": "Sin evidencia de ejecución; caso bloqueado.",
+      "incidente": "Sin defecto comprobado; bloqueo de precondiciones.",
+      "ejecutor": "Anthony Adasme (pendiente de ejecución)"
+    },
+    {
+      "id": "CP-30",
+      "caso": "Restricción de correo principal entre empresas",
+      "estado": "Aprobado",
+      "resultado_obtenido": "Resultado obtenido: El correo duplicado fue rechazado: RB-1 aprobado. El HTTP 500 con detalle SQL se registra en INC-16.",
+      "evidencias": "CP-30.json",
+      "incidente": "INC-16 — Moderado — Abierto",
+      "ejecutor": "Ejecución automatizada; revisión: Juanjose Soto"
+    }
+  ],
+  "incidentes": [
+    {
+      "id": "INC-01",
+      "cp": "CP-02",
+      "hallazgo": "Editor realiza operaciones de escritura sin restricción.",
+      "criticidad": "Grave",
+      "estado": "Abierto",
+      "responsable": "Anthony Adasme"
+    },
+    {
+      "id": "INC-02",
+      "cp": "CP-03",
+      "hallazgo": "Borrado físico en lugar de eliminación lógica.",
+      "criticidad": "Grave",
+      "estado": "Abierto",
+      "responsable": "Juanjose Soto"
+    },
+    {
+      "id": "INC-03",
+      "cp": "CP-04",
+      "hallazgo": "Consulta de clientes supera 300 ms.",
+      "criticidad": "Moderado",
+      "estado": "Abierto",
+      "responsable": "Juanjose Soto"
+    },
+    {
+      "id": "INC-04",
+      "cp": "CP-06",
+      "hallazgo": "Dashboard recortado en pantalla móvil.",
+      "criticidad": "Moderado",
+      "estado": "Abierto",
+      "responsable": "Anthony Adasme"
+    },
+    {
+      "id": "INC-05",
+      "cp": "CP-10",
+      "hallazgo": "Contraseña sin el hashing esperado.",
+      "criticidad": "Grave",
+      "estado": "Abierto",
+      "responsable": "Anthony Adasme"
+    },
+    {
+      "id": "INC-06",
+      "cp": "CP-11",
+      "hallazgo": "Documento accesible desde otra empresa.",
+      "criticidad": "Grave",
+      "estado": "Abierto",
+      "responsable": "Anthony Adasme"
+    },
+    {
+      "id": "INC-07",
+      "cp": "CP-12",
+      "hallazgo": "Token reutilizable después de cerrar sesión.",
+      "criticidad": "Grave",
+      "estado": "Abierto",
+      "responsable": "Anthony Adasme"
+    },
+    {
+      "id": "INC-08",
+      "cp": "CP-14",
+      "hallazgo": "Correo inválido aceptado y almacenado.",
+      "criticidad": "Moderado",
+      "estado": "Abierto",
+      "responsable": "Juanjose Soto"
+    },
+    {
+      "id": "INC-09",
+      "cp": "CP-16",
+      "hallazgo": "Fechas de contratos mostradas un día antes.",
+      "criticidad": "Moderado",
+      "estado": "Abierto",
+      "responsable": "Juanjose Soto"
+    },
+    {
+      "id": "INC-10",
+      "cp": "CP-17",
+      "hallazgo": "Archivo descargable sin autenticación.",
+      "criticidad": "Grave",
+      "estado": "Abierto",
+      "responsable": "Juanjose Soto"
+    },
+    {
+      "id": "INC-11",
+      "cp": "CP-18",
+      "hallazgo": "HTTP sin TLS en el entorno local.",
+      "criticidad": "Grave",
+      "estado": "Abierto",
+      "responsable": "Juanjose Soto"
+    },
+    {
+      "id": "INC-12",
+      "cp": "CP-21",
+      "hallazgo": "Auditoría accesible sin autenticación.",
+      "criticidad": "Grave",
+      "estado": "Abierto",
+      "responsable": "Anthony Adasme"
+    },
+    {
+      "id": "INC-13",
+      "cp": "CP-23",
+      "hallazgo": "Datos de usuario ajeno accesibles sin control.",
+      "criticidad": "Grave",
+      "estado": "Abierto",
+      "responsable": "Juanjose Soto"
+    },
+    {
+      "id": "INC-14",
+      "cp": "CP-25",
+      "hallazgo": "Carga móvil supera el límite de 2 s.",
+      "criticidad": "Moderado",
+      "estado": "Abierto",
+      "responsable": "Juanjose Soto"
+    },
+    {
+      "id": "INC-15",
+      "cp": "CP-27",
+      "hallazgo": "Flujo Cliente → Contratos no disponible.",
+      "criticidad": "Moderado",
+      "estado": "Abierto",
+      "responsable": "Anthony Adasme"
+    },
+    {
+      "id": "INC-16",
+      "cp": "CP-30",
+      "hallazgo": "Correo duplicado devuelve 500 y detalle SQL.",
+      "criticidad": "Moderado",
+      "estado": "Abierto",
+      "responsable": "Juanjose Soto"
+    }
+  ]
+}

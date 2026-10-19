@@ -1,0 +1,8 @@
+[
+  {
+    "urlEnlace": "http://localhost:4450/contratos/3/file",
+    "opcionesPantalla": "Inicio\nClientes\nContratos\nAuditoría\nUsuarios\nQ\n\nQA1792378070948A\n\nAdministrador\nEditar cuenta\nCerrar Sesión\nVersión 1.0.0\nQA1792378070948 Contrato A\n\nCliente: 8\n\nInicio: 2026-10-01T00:00:00.000Z\n\nFin: 2026-12-31T00:00:00.000Z\n\nDescripción: Contrato ficticio QA\n\nVer archivo\nEliminar",
+    "accesoSinSesion": 200,
+    "bytes": 583
+  }
+]

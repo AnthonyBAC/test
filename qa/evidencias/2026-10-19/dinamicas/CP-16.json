@@ -1,0 +1,97 @@
+[
+  {
+    "fecha": "2026-10-19T02:48:29.293Z",
+    "method": "POST",
+    "url": "/contratos",
+    "status": 201,
+    "ms": 56,
+    "request": {
+      "cliente_id": "8",
+      "titulo": "QA1792378070948 Expirado",
+      "descripcion": "Contrato ficticio QA",
+      "fecha_inicio": "2026-09-01",
+      "fecha_fin": "2026-10-17",
+      "file": "[archivo PDF QA]"
+    },
+    "response": {
+      "id": "6",
+      "cliente_id": "8",
+      "titulo": "QA1792378070948 Expirado",
+      "descripcion": "Contrato ficticio QA",
+      "fecha_inicio": "2026-09-01T00:00:00.000Z",
+      "fecha_fin": "2026-10-17T00:00:00.000Z",
+      "created_at": "2026-10-19T02:48:29.283Z"
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "fecha": "2026-10-19T02:48:29.350Z",
+    "method": "POST",
+    "url": "/contratos",
+    "status": 201,
+    "ms": 56,
+    "request": {
+      "cliente_id": "8",
+      "titulo": "QA1792378070948 Vence",
+      "descripcion": "Contrato ficticio QA",
+      "fecha_inicio": "2026-10-01",
+      "fecha_fin": "2026-10-23",
+      "file": "[archivo PDF QA]"
+    },
+    "response": {
+      "id": "7",
+      "cliente_id": "8",
+      "titulo": "QA1792378070948 Vence",
+      "descripcion": "Contrato ficticio QA",
+      "fecha_inicio": "2026-10-01T00:00:00.000Z",
+      "fecha_fin": "2026-10-23T00:00:00.000Z",
+      "created_at": "2026-10-19T02:48:29.341Z"
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "fecha": "2026-10-19T02:48:29.361Z",
+    "method": "GET",
+    "url": "/contratos/estados",
+    "status": 200,
+    "ms": 10,
+    "request": null,
+    "response": [
+      {
+        "id": "7",
+        "cliente_id": "8",
+        "titulo": "QA1792378070948 Vence",
+        "descripcion": "Contrato ficticio QA",
+        "fecha_inicio": "2026-10-01T00:00:00.000Z",
+        "fecha_fin": "2026-10-23T00:00:00.000Z",
+        "created_at": "2026-10-19T02:48:29.341Z",
+        "estado": "por_vencer"
+      },
+      {
+        "id": "6",
+        "cliente_id": "8",
+        "titulo": "QA1792378070948 Expirado",
+        "descripcion": "Contrato ficticio QA",
+        "fecha_inicio": "2026-09-01T00:00:00.000Z",
+        "fecha_fin": "2026-10-17T00:00:00.000Z",
+        "created_at": "2026-10-19T02:48:29.283Z",
+        "estado": "vencido"
+      }
+    ],
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "pantalla": "Inicio\nClientes\nContratos\nAuditoría\nUsuarios\nQ\n\nQA1792378070948A\n\nAdministrador\nEditar cuenta\nCerrar Sesión\nVersión 1.0.0\nGestión de Contratos\nAdministra todos los contratos de tus clientes. Puedes crear, editar y visualizar contratos según tus permisos.\nLISTAR CONTRATOS\nCREAR CONTRATO\nContratos registrados\nEl siguiente listado muestra todos los contratos registrados en el sistema. Puedes ver los detalles haciendo clic en cada fila.\nTítulo\n0\nCliente\n0\nInicio\n0\nFin\n0\nEstado\n0\nArchivo\n0\nAcciones\nQ\n\nQA1792378070948 Vence\n\nQA1792378070948 Cliente A\n\n30 sept 2026\n\n22 oct 2026\n\nVence en 4 días\nVer archivo\nQ\n\nQA1792378070948 Expirado\n\nQA1792378070948 Cliente A\n\n31 ago 2026\n\n16 oct 2026\n\nVencido (2 días)\nVer archivo\nQ\n\nQA1792378070948 Contrato A\n\nQA1792378070948 Cliente A\n\n30 sept 2026\n\n30 dic 2026\n\nVigente\nVer archivo\nFilas por página\n10\n1-3 de 3",
+    "fechaCliente": "18/10/2026",
+    "nota": "Fechas fijas de prueba: vigente al 31/12/2026; vence 23/10/2026; vencido 17/10/2026."
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "fecha": "2026-10-19T02:48:29.396Z",
+    "method": "POST",
+    "url": "/clientes",
+    "status": 201,
+    "ms": 17,
+    "request": {
+      "nombre": "QA1792378070948 Datos bancarios",
+      "correo": "qa1792378070948c7@example.test",
+      "telefono": "+56912345678",
+      "direccion": "Calle QA 100",
+      "nombre_banco": "Banco Ficticio QA",
+      "numero_cuenta": "QA-000011112222",
+      "titular_cuenta": "Persona Ficticia QA"
+    },
+    "response": {
+      "id": "13",
+      "nombre": "QA1792378070948 Datos bancarios",
+      "correo": "qa1792378070948c7@example.test",
+      "telefono": "+56912345678",
+      "direccion": "Calle QA 100",
+      "es_empresa": false,
+      "rut": null,
+      "nombre_fantasia": null,
+      "giro_actividad_economica": null,
+      "nombre_representante": null,
+      "cargo_representante": null,
+      "correo_representante": null,
+      "telefono_representante": null,
+      "relacion_representante": null,
+      "direccion_calle": null,
+      "direccion_numero": null,
+      "direccion_ciudad": null,
+      "direccion_region": null,
+      "sitio_web": null,
+      "telefono_corporativo": null,
+      "nombre_banco": "Banco Ficticio QA",
+      "numero_cuenta": "QA-000011112222",
+      "titular_cuenta": "Persona Ficticia QA",
+      "metodo_pago": null,
+      "dia_pago": null,
+      "moneda": null,
+      "empresa_id": "4",
+      "created_at": "2026-10-19T02:48:29.389Z"
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "campo": "numero_cuenta",
+    "coincideConTextoPlano": true,
+    "alcance": "Comprobación del campo sensible en la tabla; no se evaluó cifrado de disco o de volumen."
+  }
+]

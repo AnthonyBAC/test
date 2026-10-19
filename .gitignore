@@ -10,3 +10,9 @@ FRONTEND/node_modules
 
 # Logs
 *.log
+
+# Ejecuciones locales de QA y sesiones privadas
+/qa/results/
+/qa/.private/
+/qa/.env.local
+/qa/**/*.private.properties

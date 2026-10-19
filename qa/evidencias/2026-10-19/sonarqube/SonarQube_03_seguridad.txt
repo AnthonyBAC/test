@@ -1,0 +1,71 @@
+Skip to main content
+
+Warning banner:
+Embedded database should be used for evaluation purposes only. It doesn't support scaling, upgrading to a new SonarQube Server version, or migration to another database engine.
+Learn more 
+(opens in new tab)
+
+Projects
+Issues
+Rules
+Quality profiles
+Quality gates
+Administration
+
+
+
+A
+A
+Atlas EP3 Calidad y Seguridad
+Project
+
+Overview
+
+Analysis
+
+Summary
+Issues
+Security hotspots
+
+Reporting
+
+
+Policies
+
+
+Project
+
+
+Project settings
+
+
+Warning:
+The concept of Security Hotspots is deprecated
+Security Hotspot findings now appear as security issues or vulnerabilities in the Issues page. Learn more in the documentation 
+(opens in new tab)
+.
+Atlas EP3 Calidad y Seguridad
+0
+Security Hotspots
+Security Hotspots
+—
+Security Hotspots Reviewed
+
+
+To review
+Acknowledged
+Fixed
+Safe
+There are no Security Hotspots to review.
+There are no Security Hotspots to review.
+Next time you analyze a piece of code that contains a potential security risk, it will show up here.
+Learn more about Security Hotspots
+SonarQube™ technology is powered by SonarSource Sàrl
+Community Build
+v26.10.0.133078
+MQR MODE
+LGPL v3
+Community
+Documentation
+Plugins
+Web API

@@ -9,6 +9,15 @@
     "start-backend": "cd BACKEND && npm run start",
     "start-frontend": "cd FRONTEND && npm run dev",
     "start": "npm run start-backend && npm run start-frontend",
-    "install": "npm run install-backend && npm run install-frontend"
+    "install": "npm run install-backend && npm run install-frontend",
+    "qa:validar": "node qa/scripts/verificar.mjs",
+    "qa:comprobar": "node --env-file-if-exists=qa/.env.local qa/scripts/preflight.mjs",
+    "qa:api": "node --env-file-if-exists=qa/.env.local qa/scripts/api.mjs",
+    "qa:navegador": "node --env-file-if-exists=qa/.env.local qa/scripts/navegador.mjs",
+    "qa:semgrep": "node --env-file-if-exists=qa/.env.local qa/scripts/tools.mjs semgrep",
+    "qa:sonarqube": "node --env-file-if-exists=qa/.env.local qa/scripts/tools.mjs sonarqube",
+    "qa:jmeter": "node --env-file-if-exists=qa/.env.local qa/scripts/tools.mjs jmeter",
+    "qa:jmeter:resumen": "node qa/scripts/jtl.mjs",
+    "qa:jmeter:reporte": "node --env-file-if-exists=qa/.env.local qa/scripts/tools.mjs jmeter-report"
   }
 }

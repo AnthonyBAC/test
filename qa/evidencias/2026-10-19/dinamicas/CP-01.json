@@ -1,0 +1,29 @@
+[
+  {
+    "fecha": "2026-10-19T02:47:55.030Z",
+    "method": "POST",
+    "url": "/autenticacion/login",
+    "status": 200,
+    "ms": 4082,
+    "request": {
+      "nombre_usuario": "admin",
+      "password": "[omitido]"
+    },
+    "response": {
+      "token": "[omitido]"
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "nota": "Las credenciales qa_admin01 del plan no existían. Se utiliza la cuenta predeterminada admin y se conserva el diseño original."
+  },
+  {
+    "url": "http://localhost:3350/home",
+    "pantalla": "Inicio\nClientes\nContratos\nAuditoría\nUsuarios\nA\n\nadmin\n\nAdministrador\nEditar cuenta\nCerrar Sesión\nVersión 1.0.0\nBienvenido, admin\n2\n\nUsuarios de la Empresa\n\n2\n\nClientes Creados\n\n0\n\nVencen en 15 días\n\n0\n\nVencen en 30 días\n\nEditar Empresa\n\nActualiza la información de tu empresa: nombre, dirección, teléfono y correo.\n\nEditar Empresa\nEditar Usuario\n\nCambia tu contraseña y actualiza tu información de usuario.\n\nEditar Usuario\nPRÓXIMOS A VENCER\nVENCIDOS\nNo hay contratos próximos a vencer\n\nActualmente no existen contratos que estén próximos a vencer en los próximos días.",
+    "usuario": "admin",
+    "observacion": "Credencial predeterminada real del proyecto, diferente del dato qa_admin01 propuesto en el plan."
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "fecha": "2026-10-19T02:48:36.564Z",
+    "method": "GET",
+    "url": "/usuarios/8",
+    "status": 200,
+    "ms": 4,
+    "request": null,
+    "response": {
+      "id": "8",
+      "nombre_usuario": "QA1792378070948B",
+      "correo": "qa1792378070948b@example.test",
+      "created_at": "2026-10-19T02:47:59.061Z"
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "fecha": "2026-10-19T02:48:36.567Z",
+    "method": "GET",
+    "url": "/usuarios/8",
+    "status": 200,
+    "ms": 3,
+    "request": null,
+    "response": {
+      "id": "8",
+      "nombre_usuario": "QA1792378070948B",
+      "correo": "qa1792378070948b@example.test",
+      "created_at": "2026-10-19T02:47:59.061Z"
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "fecha": "2026-10-19T02:48:36.576Z",
+    "method": "GET",
+    "url": "/usuarios/8",
+    "status": 200,
+    "ms": 4,
+    "request": null,
+    "response": {
+      "id": "8",
+      "nombre_usuario": "QA1792378070948B",
+      "correo": "qa1792378070948b@example.test",
+      "created_at": "2026-10-19T02:47:59.061Z"
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  }
+]

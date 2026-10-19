@@ -1,0 +1,14 @@
+{
+  "component": {
+    "key": "atlas-ep3-20261019",
+    "name": "Atlas EP3 Calidad y Seguridad",
+    "qualifier": "TRK",
+    "analysisDate": "2026-10-19T09:35:06-03:00",
+    "tags": [],
+    "visibility": "private",
+    "version": "2026.10.19",
+    "needIssueSync": false,
+    "isAiCodeFixEnabled": false
+  },
+  "ancestors": []
+}

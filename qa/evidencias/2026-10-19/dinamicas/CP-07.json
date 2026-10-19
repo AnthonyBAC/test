@@ -1,0 +1,70 @@
+[
+  {
+    "fecha": "2026-10-19T02:47:55.047Z",
+    "method": "POST",
+    "url": "/empresas",
+    "status": 201,
+    "ms": 15,
+    "request": {
+      "usuario": {
+        "nombre_usuario": "QA1792378070948A",
+        "contrasena_hash": "[omitido]",
+        "correo": "qa1792378070948a@example.test"
+      },
+      "empresa": {
+        "nombre": "QA1792378070948A",
+        "direccion": "Calle QA 100",
+        "telefono": "+56912345678",
+        "correo": "qa1792378070948a@example.test"
+      }
+    },
+    "response": {
+      "usuario": {
+        "id": "7",
+        "nombre_usuario": "QA1792378070948A",
+        "correo": "qa1792378070948a@example.test",
+        "created_at": "2026-10-19T02:47:55.038Z"
+      },
+      "empresa": {
+        "id": "4",
+        "nombre": "QA1792378070948A",
+        "direccion": "Calle QA 100",
+        "telefono": "+56912345678",
+        "correo": "qa1792378070948a@example.test",
+        "created_at": "2026-10-19T02:47:55.040Z"
+      }
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "fecha": "2026-10-19T02:47:59.056Z",
+    "method": "POST",
+    "url": "/autenticacion/login",
+    "status": 200,
+    "ms": 4009,
+    "request": {
+      "nombre_usuario": "QA1792378070948A",
+      "password": "[omitido]"
+    },
+    "response": {
+      "token": "[omitido]"
+    },
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "allowOrigin": "*"
+    }
+  },
+  {
+    "rol": "administrador"
+  },
+  {
+    "dashboard": "/home",
+    "usuario": "QA1792378070948A",
+    "empresa": "4",
+    "pantalla": "Inicio\nClientes\nContratos\nAuditoría\nUsuarios\nQ\n\nQA1792378070948A\n\nAdministrador\nEditar cuenta\nCerrar Sesión\nVersión 1.0.0\nBienvenido, QA1792378070948A\n2\n\nUsuarios de la Empresa\n\n5\n\nClientes Creados\n\n1\n\nVencen en 15 días\n\n1\n\nVencen en 30 días\n\nEditar Empresa\n\nActualiza la información de tu empresa: nombre, dirección, teléfono y correo.\n\nEditar Empresa\nEditar Usuario\n\nCambia tu contraseña y actualiza tu información de usuario.\n\nEditar Usuario\nPRÓXIMOS A VENCER\nVENCIDOS\n\nQA1792378070948 Cliente A\n\nFecha de vencimiento: 2026-10-23T00:00:00.000Z (4 días restantes)",
+    "alcance": "Alta mediante API; inicio de sesión y Dashboard comprobados mediante navegador."
+  }
+]
