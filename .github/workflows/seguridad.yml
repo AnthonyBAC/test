@@ -1,0 +1,36 @@
+name: Seguridad de Atlas
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  revision:
+    name: ${{ matrix.control }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        control: [Semgrep, SonarQube, npm-backend, npm-frontend]
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Preparar el entorno de SonarQube
+        if: matrix.control == 'SonarQube'
+        run: sudo sysctl -w vm.max_map_count=524288
+      - name: Analizar la revisión
+        run: python3 qa/ci/analizar.py "${{ matrix.control }}"
+      - name: Guardar evidencia
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: ${{ matrix.control }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: informes-ci/
+          if-no-files-found: error
+          retention-days: 30
+
