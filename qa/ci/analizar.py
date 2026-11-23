@@ -28,6 +28,15 @@ def output(args):
     return subprocess.check_output(args, cwd=ROOT, text=True, encoding="utf-8").strip()
 
 
+def scanner(args, env):
+    proc = subprocess.run(args, env=env, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+                          text=True, encoding="utf-8", errors="replace")
+    print(proc.stdout, flush=True)
+    if proc.returncode:
+        lines = [line for line in proc.stdout.splitlines() if "ERROR" in line or "denied" in line]
+        raise RuntimeError("SonarScanner: " + " / ".join(lines[-4:] or proc.stdout.splitlines()[-2:]))
+
+
 def audit(area):
     npm = shutil.which("npm.cmd" if os.name == "nt" else "npm")
     proc = subprocess.run([npm, "audit", "--package-lock-only", "--include=dev",
@@ -96,14 +105,14 @@ def sonar():
         api("qualitygates/select", {"projectKey": PROJECT, "gateName": gate})
         token = api("user_tokens/generate", {"name": name, "type": "PROJECT_ANALYSIS_TOKEN", "projectKey": PROJECT})["token"]
         env = dict(os.environ, SONAR_TOKEN=token)
-        subprocess.run(["docker", "run", "--rm", "--network", net, "-e", "SONAR_TOKEN",
+        scanner(["docker", "run", "--rm", "--network", net, "-e", "SONAR_TOKEN",
                         "-e", f"SONAR_HOST_URL=http://{name}:9000", "-v", f"{ROOT}/BACKEND/src:/src/BACKEND/src:ro",
                         "-v", f"{ROOT}/FRONTEND/src:/src/FRONTEND/src:ro", SCANNER,
                         "-Dsonar.projectKey=" + PROJECT, "-Dsonar.projectBaseDir=/src",
                         "-Dsonar.sources=BACKEND/src,FRONTEND/src", "-Dsonar.exclusions=**/assets/**,**/openapi.json",
                         "-Dsonar.working.directory=/tmp/atlas-scan", "-Dsonar.scm.disabled=true",
                         "-Dsonar.sourceEncoding=UTF-8", "-Dsonar.projectVersion=" + output(["git", "rev-parse", "--short", "HEAD"])],
-                       env=env, check=True)
+                       env)
         for _ in range(100):
             task = api("ce/component?component=" + PROJECT)
             if not task.get("queue") and task.get("current", {}).get("status") == "SUCCESS":
@@ -149,12 +158,24 @@ def main():
             raise ValueError("Control desconocido")
         report.update(estado="Conforme" if passed else "No conforme", detalle=detail)
         code = 0 if passed else 1
+    except error.HTTPError as exc:
+        report.update(estado="Error técnico", error=f"{exc.code} {parse.urlparse(exc.url).path}: " +
+                      exc.read().decode(errors="replace")[:400])
+        code = 2
     except Exception as exc:
         report.update(estado="Error técnico", error=str(exc))
         code = 2
     report["duracion_s"] = round((datetime.now(timezone.utc) - started).total_seconds(), 2)
     save(control + "-resumen.json", report)
     print(json.dumps(report, ensure_ascii=True), flush=True)
+    if os.getenv("GITHUB_ACTIONS") == "true":
+        message = json.dumps(report, ensure_ascii=False)
+        notice = message.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+        print(f"::notice title=Resultado de {control}::{notice}", flush=True)
+        with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as summary:
+            summary.write(f"### {control} · {report['estado']}\n\n")
+            summary.write(f"Duración: {report['duracion_s']} s.\n\n")
+            summary.write("```json\n" + json.dumps(report.get("detalle", report.get("error")), indent=2) + "\n```\n")
     return code
 
 
